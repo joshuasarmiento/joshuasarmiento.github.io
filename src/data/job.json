@@ -1,0 +1,20 @@
+{
+    "JobDetails": [
+        {
+            "id": 1,
+            "position": "Frontend Developer",
+            "companyName": "Bria Homes Inc.",
+            "companyLogo": "BriaLogo",
+            "startDate": "Aug 2022",
+            "endDate": "Present "
+        },
+        {
+            "id": 2,
+            "position": "Software Developer",
+            "companyName": "CHED Regional Office V.",
+            "companyLogo": "ChedLogo",
+            "startDate": "Jan 2022",
+            "endDate": "Jun 2022"
+        }
+    ]
+}

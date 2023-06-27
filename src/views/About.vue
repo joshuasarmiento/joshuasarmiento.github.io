@@ -109,6 +109,3 @@ import WorkSection from '../views/components/WorkSection.vue'
 import profilePic from '../assets/img/profilePic.jpg';
 </script>
 
-<style>
-
-</style>

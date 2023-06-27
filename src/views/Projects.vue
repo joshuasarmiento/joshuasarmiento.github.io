@@ -75,8 +75,20 @@
 </main>
 </template>
 
+<<<<<<< HEAD
 <script>
 import paymentChannel from '../assets/img/Projects/paymentChannel/DesktopUI.png';
+=======
+<script setup>
+
+import {
+    ref
+} from 'vue';
+import projects from '../data/projects.json';
+const title = ref('Projects');
+const description = ref("I hope you find these projects interesting and informative. If you have any questions or would like to learn more about my work, please don't hesitate to contact me.");
+const data = ref(projects.projectDetails);
+>>>>>>> b5c174dc69666fc7fb089c0022cb5fd49aaf67c3
 </script>
 
 <style></style>

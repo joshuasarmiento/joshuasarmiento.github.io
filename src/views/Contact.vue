@@ -58,7 +58,3 @@
 <script setup>
 import profilePic from '../assets/img/profilePic.jpg';
 </script>
-
-<style>
-
-</style>

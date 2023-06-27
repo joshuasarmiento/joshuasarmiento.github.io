@@ -6,6 +6,6 @@ import WorksSection from './components/WorkSection.vue';
 
 <template>
 <section class="mx-auto max-w-screen-sm">
-    <MainSection/>
+    <MainSection />
 </section>
 </template>
