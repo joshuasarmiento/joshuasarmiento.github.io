@@ -11,23 +11,17 @@ const router = createRouter({
     },
     {
       path: '/about',
-      name: 'About',
+      name: 'about',
       component: () => import('../views/About.vue')
     },
     {
       path: '/projects',
-      name: 'Projects',
+      name: 'projects',
       component: () => import('../views/Projects.vue')
     },
     {
-      path: '/projects/:id',
-      name: 'projectsDetails',
-      component: () => import('../views/components/Project/ProjectDetails.vue'),
-      props: true
-    },
-    {
       path: '/contact',
-      name: 'Contact',
+      name: 'contact',
       component: () => import('../views/Contact.vue')
     },
     {

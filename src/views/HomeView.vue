@@ -1,5 +1,7 @@
 <script setup>
 import MainSection from './components/Home/Main.vue';
+import WorksSection from './components/WorkSection.vue';
+
 </script>
 
 <template>
