@@ -25,6 +25,7 @@
 </template>
 
 <script setup>
+
 import profilePic from '../../../assets/img/profilePic.jpg';
 
 const props = defineProps({

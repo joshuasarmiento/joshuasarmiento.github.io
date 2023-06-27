@@ -37,6 +37,7 @@ const subject = ref('I make designs and write code.');
 const description = ref("I'm Joshua Sarmiento, a frontend developer currently working at Bria Homes Inc. with 1+ year of experience. I'm passionate about building user-friendly and engaging web applications.")
 
 const links = ref([
+    
     {
         id: 1,
         text: '973+ Total Contributions',

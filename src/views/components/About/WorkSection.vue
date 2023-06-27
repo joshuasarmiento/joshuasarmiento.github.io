@@ -25,6 +25,7 @@
 </template>
 
 <script setup>
+
 import { ref } from 'vue';
 import BriaLogo from '../../../assets/img/BriaLogo.png'
 import ChedLogo from '../../../assets/img/ched-logo.png'

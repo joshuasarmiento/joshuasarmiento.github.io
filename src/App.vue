@@ -5,7 +5,7 @@ import Header from './views/Header/Header.vue';
 
 <template>
   <Header></Header>
-  <router-view v-slot="{ Component }">
+  <router-view v-slot="{ Component }" >
       <component class="mb-16" :is="Component" />
   </router-view>
 </template>
