@@ -8,7 +8,7 @@
                 <p class="text-xl text-secondary animate-fade-up animate-delay-[200ms] ">{{ data.titleDesc }}</p>
             </div>
             <div class="h-8"></div>
-            <img :srcset="imagePath" :alt="data.subject" loading="lazy" fetchpriority="high" decoding="async" data-nimg="1" class="animate-fade-up animate-delay-[300ms] w-[calc(100%+48px)] -ml-6 lg:w-[calc(100%+128px)] lg:-ml-16 md:rounded-lg max-w-none shadow-md" style="color: transparent;" width="700" height="350">
+            <img :src="data.img" :alt="data.subject" loading="lazy" fetchpriority="high" decoding="async" data-nimg="1" class="animate-fade-up animate-delay-[300ms] w-[calc(100%+48px)] -ml-6 lg:w-[calc(100%+128px)] lg:-ml-16 md:rounded-lg max-w-none shadow-md" style="color: transparent;" width="700" height="350">
             <div class="h-16"></div>
             <div class="animate-fade-up animate-delay-[400ms]">
                 <h2 class="text-xl font-bold tracking-tight mb-4">Objective</h2>
@@ -40,12 +40,12 @@
             </a>
             <div class="divider py-8"></div>
                 <h2 class="text-xl font-bold tracking-tight mb-4">Contributors</h2>
-            <article v-if="data.contributors" class="border rounded-md p-4 w-[calc(100%+48px)] -ml-6 lg:w-[calc(100%+128px)] lg:-ml-16">
+            <article v-if="data.contributors" class="border border-gray-500 rounded-md p-4 w-[calc(100%+48px)] -ml-6 lg:w-[calc(100%+128px)] lg:-ml-16">
                 <div v-for="contri in project.contributors" :key="contri" class="flex justify-between items-center py-2 gap-4">
                     <div class="flex items-center gap-4">
-                        <img alt="Developer" :src="`../../src/assets/img/projects/profile/${contri.image}`" class="h-16 w-16 rounded-full object-cover" />
+                        <img alt="Developer" :src="`../../src/assets/img/${contri.image}`" class="h-16 w-16 rounded-full object-cover" />
                         <div>
-                            <h3 class="text-lg font-medium ">{{ contri.name }}</h3>
+                            <h3 class="text-md font-medium ">{{ contri.name }}</h3>
                             <div class="flow-root">
                                 <ul class="-m-1 flex flex-wrap">
                                     <li v-if="contri.link" class="p-1 leading-none">
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                     <div class="hidden md:block text-end">
-                        <h3 class="text-md font-medium "> {{ contri.position }} </h3>
+                        <h3 class="text-sm font-bold text-secondary"> {{ contri.position }} </h3>
                         <span class="text-xs font-medium "> {{ contri.company }} </span>
                     </div>
                 </div>
@@ -83,8 +83,4 @@ const data = ref(null);
 const project = projects.projectDetails.find((item) => item.params === projectId.value);
 
 project ? data.value = project : '';
-
-const imagePath = computed(() => {
-    return `../../src/assets/img/projects/${data.value.img}`;
-})
 </script>

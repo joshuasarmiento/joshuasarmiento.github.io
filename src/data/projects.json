@@ -7,7 +7,7 @@
             "link": "",
             "params": "Web-Application-Bria-Payment-Channel",
             "subject": "Web Application Bria Payment Channel",
-            "img": "DesktopUI.png"
+            "img": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/DesktopUI.png"
         },
         {
             "id": 2,
@@ -16,7 +16,7 @@
             "link": "",
             "params": "Asterra-Condominium-Website",
             "subject": "Asterra Condominium Website",
-            "img": "asterra.png",
+            "img": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/asterra.png",
             "titleDesc": "Real Estate Website",
             "role": "UI/UX Designer and Frontend Developer",
             "objective": "Designing website aesthetics, coding using various programming languages, creating website features, optimizing website accessibility, conducting quality testing, and troubleshooting issues.",
@@ -39,7 +39,7 @@
             "contributors": [
                 {
                     "role": "",
-                    "image": "JomarBalasbas.jpg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JomarBalasbas.jpg",
                     "link": "https://ph.linkedin.com/in/jomar-balasbas",
                     "name": "Jomar Balasbas",
                     "position": "Sr. Lead Full Stack Developer",
@@ -47,7 +47,7 @@
                 },
                 {
                     "role": "",
-                    "image": "JeanChua.jpg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JeanChua.jpg",
                     "link": "https://ph.linkedin.com/in/jeannine-chua-4299bb188",
                     "name": "Jeannine Chua",
                     "position": "Senior Digital Marketing & Corporate Communication",
@@ -62,7 +62,7 @@
             "link": "",
             "params": "Bria-Homes-Website",
             "subject": "Bria Homes Website",
-            "img": "bria-home-page.png",
+            "img": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/bria-home-page.png",
             "titleDesc": "Real Estate Website",
             "role": "UI/UX Designer and Frontend Developer",
             "objective": "Designing website aesthetics, coding using various programming languages, managing website content, creating website features, optimizing website accessibility, conducting quality testing, and troubleshooting issues.",
@@ -85,7 +85,7 @@
             "contributors": [
                 {
                     "role": "",
-                    "image": "JomarBalasbas.jpg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JomarBalasbas.jpg",
                     "link": "https://ph.linkedin.com/in/jomar-balasbas",
                     "name": "Jomar Balasbas",
                     "position": "Sr. Lead Full Stack Developer",
@@ -93,7 +93,7 @@
                 },
                 {
                     "role": "",
-                    "image": "JeanChua.jpg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JeanChua.jpg",
                     "link": "https://ph.linkedin.com/in/jeannine-chua-4299bb188",
                     "name": "Jeannine Chua",
                     "position": "Senior Digital Marketing & Corporate Communication",
@@ -109,7 +109,7 @@
             "link": "",
             "params": "CHED-Application-of-program-management-system",
             "subject": "CHED Application of program management system",
-            "img": "CHEDDashboard.png",
+            "img": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/CHEDDashboard.png",
             "titleDesc": "Application of Programs Management System",
             "role": "Project Lead, UI/UX Designer, Frontend Developer",
             "objective": "A web-based application for the processing of program applications by various Higher Education Institutions.",
@@ -134,7 +134,7 @@
             "contributors": [
                 {
                     "role": "",
-                    "image": "JeffPic.jpg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JeffPic.jpg",
                     "link": "https://www.linkedin.com/in/jeff-vincent-banday-a01076239/",
                     "name": "Jeff C. Banday",
                     "position": "Junior Research & Development Engineer",
@@ -142,7 +142,7 @@
                 },
                 {
                     "role": "",
-                    "image": "SaqPic.jpg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/SaqPic.jpg",
                     "link": "https://www.linkedin.com/in/christiansaquillo/",
                     "name": "Christian A. Saquillo",
                     "position": "Technology Consultant ",
@@ -150,7 +150,7 @@
                 },
                 {
                     "role": "",
-                    "image": "DuanePic.jpeg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/DuanePic.jpeg",
                     "link": "https://www.linkedin.com/in/duane-xavier-bondad/",
                     "name": "Duane Xavier Bondad",
                     "position": "Junior Full Stack Developer",
@@ -158,7 +158,7 @@
                 },
                 {
                     "role": "",
-                    "image": "SevPic.jpeg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/SevPic.jpeg",
                     "link": "https://www.linkedin.com/in/sevsarate/",
                     "name": "Severino Sarate III",
                     "position": "Associate Software Engineer",
@@ -173,7 +173,7 @@
             "link": "",
             "params": "Booking-Mobile-Application",
             "subject": "Booking Mobile Application",
-            "img": "blookApps.png",
+            "img": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/blookApps.png",
             "titleDesc": "Mobile Booking Application for Salons, Barber Shops, and Beauty Salons",
             "role": "UI/UX Designer and Frontend Developer",
             "objective": "An application that can serve as a portal for salons, parlors, and barber shops on booking their appointments.",
@@ -194,7 +194,7 @@
             "contributors": [
                 {
                     "role": "",
-                    "image": "JeffPic.jpg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JeffPic.jpg",
                     "link": "https://www.linkedin.com/in/jeff-vincent-banday-a01076239/",
                     "name": "Jeff C. Banday",
                     "position": "Junior Research & Development Engineer",
@@ -202,7 +202,7 @@
                 },
                 {
                     "role": "",
-                    "image": "SaqPic.jpg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/SaqPic.jpg",
                     "link": "https://www.linkedin.com/in/christiansaquillo/",
                     "name": "Christian A. Saquillo",
                     "position": "Technology Consultant ",
