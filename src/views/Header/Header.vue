@@ -3,15 +3,17 @@
     <div class="p-4">
         <div class="flex items-center justify-between gap-4 lg:gap-10">
             <div class="flex lg:w-0 lg:flex-1">
-                <a href="/" class="animate-fade">
-                    <img loading="lazy" decoding="async" :src="logo" class="h-4 w-4" alt="">
-                </a>
+                <div class="animate-fade">
+                    <router-link to="/">
+                        <img loading="lazy" decoding="async" :src="logo" class="bg-transparent h-4 w-4" alt="">
+                    </router-link>
+                </div>
             </div>  
 
             <nav aria-label="Global" class="hidden gap-8 text-sm font-medium sm:flex animate-fade">
-                <router-link class="text-primary-link rounded-lg px-3 py-2" to="/about">About</router-link>
-                <router-link class="text-primary-link rounded-lg px-3 py-2" to="/projects">Projects</router-link>
-                <router-link class="text-primary-link rounded-lg px-3 py-2" to="/contact">Contact</router-link>
+                <router-link class="text-primary-link px-3 py-2" to="/about">About</router-link>
+                <router-link class="text-primary-link px-3 py-2" to="/projects">Projects</router-link>
+                <router-link class="text-primary-link px-3 py-2" to="/contact">Contact</router-link>
             </nav>
 
             <div class="flex-1 items-center justify-end gap-4 sm:flex">
@@ -23,7 +25,7 @@
             </div>
 
             <div class="lg:hidden sm:hidden animate-fade">
-                <button class="rounded-lg p-2 text-gray-600" type="button"  @click="toggleMentFunc()">
+                <button class="p-2 text-slate-600 dark:text-slate-300" type="button"  @click="toggleMentFunc();">
                     <span class="sr-only">Open menu</span>
                     <svg v-if="!toggleMenu" aria-hidden="true" class="h-5 w-5" fill="currentColor" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
@@ -34,29 +36,21 @@
                 </button>
             </div>
 
-            <div v-if="toggleMenu === true" class="relative animate-fade-left animate-duration-[400ms] z-20">
-                <div class="absolute end-0 z-10 mt-8 w-56 mr-4 divide-y divide-gray-100 rounded-md border border-gray-100 bg-white dark:bg-[#000000f2] shadow-lg" role="menu">
+            <div v-if="toggleMenu === true" :class="toggleMenu ? 'animate-fade-left animate-duration-[400ms]' : 'animate-fade-right animate-duration-[400ms]' " class="relative z-20">
+                <div class="absolute end-0 z-10 mt-8 w-56 mr-4 divide-y divide-gray-100 border rounded-md border-gray-100 bg-white dark:bg-[#000000f2] shadow-lg" role="menu">
                     <div class="p-2">
-                        <strong class="block p-2 text-xs font-medium uppercase text-gray-400">
-                            🌙✌️😫
-                        </strong>
-                        <router-link to="/" class="block rounded-lg px-4 py-2 text-sm hover:bg-gray-200 text-primary-link" role="menuitem">
+                        <router-link to="/" class="block rounded-md px-4 py-2 text-sm hover:bg-gray-200 text-primary-link" role="menuitem">
                             Home
                         </router-link>
-                        <router-link to="/about" class="block rounded-lg px-4 py-2 text-sm hover:bg-gray-200 text-primary-link" role="menuitem">
+                        <router-link to="/about" class="block rounded-md px-4 py-2 text-sm hover:bg-gray-200 text-primary-link" role="menuitem">
                             About
                         </router-link>
-                        <router-link to="/projects" class="block rounded-lg px-4 py-2 text-sm hover:bg-gray-200 text-primary-link" role="menuitem">
+                        <router-link to="/projects" class="block rounded-md px-4 py-2 text-sm hover:bg-gray-200 text-primary-link" role="menuitem">
                             Projects
                         </router-link>
-                            
-                    </div>
-                    <div class="p-2">
-                        <router-link to="/contact" class="" role="menuitem">
-                            <strong class="block p-2 text-sm font-medium text-gray-400">
-                                Contact
-                            </strong>
-                        </router-link>
+                        <router-link to="/contact" class="block rounded-md px-4 py-2 text-sm hover:bg-gray-200 text-primary-link" role="menuitem">
+                            Contact
+                        </router-link>  
                     </div>
                 </div>
             </div>
@@ -84,7 +78,6 @@ import {
 const toggleMenu = ref(false);
 const toggleMentFunc = () => {
     toggleMenu.value = !toggleMenu.value
-    console.log(toggleMenu.value)
 }
 
 const logoWhite = myLogoWhite;

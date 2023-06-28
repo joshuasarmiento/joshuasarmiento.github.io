@@ -126,9 +126,9 @@
                 "Mongo DB Compass"
             ],
             "challenge": [
-                "Booking systems are being used in an increasing number of venues. The majority of the booking system's features are not accessible tothe user or administrator. Even when purchasing anything online, the item is reserved for the potential buyer. The more resources and other dynamic elements a system possesses, the more processing must be performed.",
-                "According to the findings of the usability test that was done in the areas of shop owners and clients, the users were able to appreciate the application. The client was able to book their desired services without having to walk to the shop. The shop owner was able to evaluate the appointments set by the user and accept or reject them in a timely manner.",
-                "The test resulted in an overall positive response, with client users successfully completing the appointment schedule via the mobile application. Using the formula in calculating the SUS score, Client application got a average score of 75% while the shop owner application with the average score of 68%."
+                "The scope of this project is a web-based system composed of modules that handle the application of programs of HEIs. Including, but not limited to: Account Creation Module, Renewal Module, Initial Offering Module, Government Recognition Module, Certificate of Program Compliance Module, Report Generation Module and Notification Module The project is limited to digitizing and improving the efficiency of the current process of application of programs.",
+                "The current program application process causing a lot of concerns which are; documents are mixed up or even forgotten by the supervisors because it’s voluminous, supervisors sometimes forget to prepare follow-up letters for HEIs because of the unorganized documents, and HEIs operating programs even without the corresponding government authority, HEIs non-observance of the timelines causing a delay in application progress, and the Commission issuing Special Order for Graduation which all leads to delays in the issuance of corresponding government authority for HEIs.",
+                "The CHED Programs Application Management System was developed in order to have a more efficient and effective way of managing HEIs program applications. This system should take away the hassle of the manual application process that the CHED is currently implementing."
             ],
             "liveLink": "",
             "contributors": [

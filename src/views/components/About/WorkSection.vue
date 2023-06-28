@@ -8,7 +8,7 @@
         </div>
         <ul class="animate-fade-up animate-delay-[700ms] flex flex-col gap-8 animated-list text-sm">
             <li class="">
-                <a v-for="item in jobData" :key="item" class="relative overflow-hidden underline-offset-4 flex justify-between w-full px-3 py-4 -mx-3 -my-2" target="_blank" href="#">
+                <a v-for="item in jobData" :key="item" class="relative overflow-hidden underline-offset-4 flex flex-col md:flex-row justify-between w-full px-3 py-4 -mx-3 -my-2" target="_blank" href="#">
                     <div class="flex items-center gap-4">
                         <img alt="Hines" loading="lazy" decoding="async" data-nimg="1" class="rounded-full  opacity-75" style="color: transparent;" :src="item.companyLogo" width="48" height="48">
                         <div class="flex flex-col gap-px ">
@@ -16,7 +16,7 @@
                             <p class="text-secondary">{{ item.companyName }}</p>
                         </div>
                     </div>
-                    <p class="text-secondary">{{ item.startDate }} - {{ item.endDate }}</p>
+                    <p class="text-secondary text-start ml-16">{{ item.startDate }} - {{ item.endDate }}</p>
                 </a>
             </li>
         </ul>

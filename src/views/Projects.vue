@@ -1,5 +1,5 @@
 <template>
-<main class="text-primary p-4 mt-16 max-w-screen-sm mx-auto">
+<main class="text-primary p-4 mt-4 md:mt-16 max-w-screen-sm mx-auto">
     <div class="text-primary flex flex-col gap-16 md:gap-24">
         <div class="flex flex-col gap-8">
             <div>
@@ -13,7 +13,7 @@
                     <div :class="item.animateDelay" class="animate-fade-up">
                         <div class="flex justify-between gap-6 items-center">
                             <section :class="item.id === 1 ? '-z-10 text-secondary' : ''" class="flex flex-col md:flex-row gap-2 md:gap-9 col-reverse">
-                                <h2 class="md:w-40 text-secondary shrink-0">
+                                <h2 class="md:w-40 text-secondary text-sm shrink-0">
                                     {{item.date}}
                                 </h2>
                                 <router-link 

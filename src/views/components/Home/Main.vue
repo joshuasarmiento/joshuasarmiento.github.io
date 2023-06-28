@@ -1,9 +1,9 @@
 <template>
 <section>
-    <div class="flex flex-col gap-8 animate-in mt-16 p-4">
+    <div class="flex flex-col gap-8 animate-in mt-4 md:mt-16 p-4">
         <!-- Name & Subject -->
         <div class="">
-            <h1 class="animate-fade-up text-2xl font-bold tracking-tight text-primary">{{  name  }}</h1>
+            <h1 class="animate-fade-up text-2xl font-bold tracking-tight text-primary mb-2">{{  name  }}</h1>
             <p class="text-secondary animate-fade-up animate-delay-[100ms]">{{  subject }}</p>
         </div>
         <div class="animate-fade-up animate-delay-[200ms] flex flex-col md:flex-row gap-6 text-secondary md:items-center">
@@ -33,7 +33,7 @@ import profilePic from '../../../assets/img/profilePic.jpg';
 import LinksSection from './Links.vue';
 
 const name = ref('Joshua Sarmiento');
-const subject = ref('I make designs and write code.');
+const subject = ref('I design and write code.');
 const description = ref("I'm Joshua Sarmiento, a frontend developer currently working at Bria Homes Inc. with 1+ year of experience. I'm passionate about building user-friendly and engaging web applications.")
 
 const links = ref([
