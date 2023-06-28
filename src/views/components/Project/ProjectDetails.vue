@@ -43,7 +43,7 @@
             <article v-if="data.contributors" class="border border-gray-500 rounded-md p-4 w-[calc(100%+48px)] -ml-6 lg:w-[calc(100%+128px)] lg:-ml-16">
                 <div v-for="contri in project.contributors" :key="contri" class="flex justify-between items-center py-2 gap-4">
                     <div class="flex items-center gap-4">
-                        <img alt="Developer" :src="`../../src/assets/img/${contri.image}`" class="h-16 w-16 rounded-full object-cover" />
+                        <img alt="Developer" :src="contri.image" class="h-16 w-16 rounded-full object-cover" />
                         <div>
                             <h3 class="text-md font-medium ">{{ contri.name }}</h3>
                             <div class="flow-root">
