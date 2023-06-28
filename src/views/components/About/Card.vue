@@ -17,7 +17,7 @@
         <div class=" mt-4">
             <div class="max-w-[60ch] text-sm text-secondary space-y-4">
                 <p>{{  title }}</p>
-                <p>{{ description }}}</p>
+                <p>{{ description }}</p>
             </div>
         </div>
     </div>

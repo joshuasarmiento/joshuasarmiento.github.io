@@ -1,72 +1,45 @@
 <template>
-  <section>
+<section>
     <div class="flex flex-col gap-8 animate-in mt-16 p-4">
-        <div>
-            <h1 class="animate-fade-up text-2xl font-bold tracking-tight text-primary">Joshua Sarmiento</h1>
-            <p class="text-secondary text-sm animate-fade-up animate-delay-[100ms]" style="--index:1">I make designs and write code.</p>
+        <!-- Name & Subject -->
+        <div class="">
+            <h1 class="animate-fade-up text-2xl font-bold tracking-tight text-primary">{{  name  }}</h1>
+            <p class="text-secondary animate-fade-up animate-delay-[100ms]">{{  subject }}</p>
         </div>
-        <div class="animate-fade-up animate-delay-[200ms] flex flex-col md:flex-row gap-6 text-secondary md:items-center" style="--index:1">
+        <div class="animate-fade-up animate-delay-[200ms] flex flex-col md:flex-row gap-6 text-secondary md:items-center">
             <img alt="avatar" loading="lazy" decoding="async" data-nimg="1" class="rounded-full w-24 h-24" :src="profilePic">
-            <ul class="space-y-2 text-sm">
-                <li class="transition-opacity">
-                    <a class="text-secondary underline-offset-4 flex gap-3 items-center no-underline" target="_blank">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" class="text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
-                        </svg>
-                        973+ Total Contributions
-                    </a>
-                </li>
-                <li class="transition-opacity">
-                    <a class="text-secondary flex gap-3 items-center">
-                        <svg viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
-                            <path fill-rule="evenodd" d="M12.577 4.878a.75.75 0 01.919-.53l4.78 1.281a.75.75 0 01.531.919l-1.281 4.78a.75.75 0 01-1.449-.387l.81-3.022a19.407 19.407 0 00-5.594 5.203.75.75 0 01-1.139.093L7 10.06l-4.72 4.72a.75.75 0 01-1.06-1.061l5.25-5.25a.75.75 0 011.06 0l3.074 3.073a20.923 20.923 0 015.545-4.931l-3.042-.815a.75.75 0 01-.53-.919z" clip-rule="evenodd"></path>
-                        </svg>
-                        1+ Experience ﹥ 5+ Projects
+            <ul class="space-y-2">
+                <li class="">
+                    <a v-for="(link) in links" :key="link.id" class="text-secondary underline-offset-4 flex gap-3 items-center no-underline" target="_blank">
+                        <span v-html="link.svg"></span>
+                        {{link.text}}
                     </a>
                 </li>
             </ul>
         </div>
-        
-        <p class="text-sm text-primary max-w-lg animate-fade-up animate-delay-[300ms]" style="--index:2">
-            I'm Joshua Sarmiento, a frontend developer currently working at Bria Homes Inc. with 1+ year of experience. I'm passionate about building user-friendly and engaging web applications.
+        <!-- Description -->
+        <p class="text-primary max-w-md animate-fade-up animate-delay-[300ms]">
+            {{ description }}
         </p>
-
-        <ul class="flex flex-col md:flex-row gap-2 md:gap-6 text-secondary animate-fade-up animate-delay-[400ms]" style="--index:2">
-            <li class="transition-opacity">
-                <a class="text-primary-link underline-offset-4 flex gap-2 items-center no-underline" target="_blank" href="mailto:sarmientojoshuaalvarez@gmail.com">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
-                        <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
-                    </svg>
-                    <span class="text-sm">Email me</span>
-                </a>
-            </li>
-            <li class="transition-opacity">
-                <router-link class="text-primary-link flex gap-2 items-center no-underline" to="/contact">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
-                        <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
-                    </svg>
-                    <span class="text-sm">Connect with me</span>
-                </router-link>
-            </li>
-        </ul>
+        <!-- Links -->
+        <LinksSection/>
     </div>
-  </section>
+</section>
 </template>
 
 <script setup>
+import { ref } from "vue";
 import profilePic from '../../../assets/img/profilePic.jpg';
-</script>
+import LinksSection from './Links.vue';
 
-<style>
+const name = ref('Joshua Sarmiento');
+const subject = ref('I make designs and write code.');
+const description = ref("I'm Joshua Sarmiento, a frontend developer currently working at Bria Homes Inc. with 1+ year of experience. I'm passionate about building user-friendly and engaging web applications.")
 
-<<<<<<< HEAD
-</style>
-=======
 const links = ref([
-    
     {
         id: 1,
-        text: '973+ Total Contributions',
+        text: '977+ Total Contributions',
         svg: `<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" class="text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                     <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
                 </svg>`
@@ -80,4 +53,3 @@ const links = ref([
     }
 ])
 </script>
->>>>>>> b5c174dc69666fc7fb089c0022cb5fd49aaf67c3

@@ -5,35 +5,210 @@
             "animateDelay": "animate-delay-[200ms]",
             "date": "July 2023 ",
             "link": "",
-            "subject": "Web Application Bria Payment Channel"
+            "params": "Web-Application-Bria-Payment-Channel",
+            "subject": "Web Application Bria Payment Channel",
+            "img": "DesktopUI.png"
         },
         {
             "id": 2,
             "animateDelay": "animate-delay-[300ms]",
             "date": "December 2022",
             "link": "",
-            "subject": "Asterra Condominium Website"
+            "params": "Asterra-Condominium-Website",
+            "subject": "Asterra Condominium Website",
+            "img": "asterra.png",
+            "titleDesc": "Real Estate Website",
+            "role": "UI/UX Designer and Frontend Developer",
+            "objective": "Designing website aesthetics, coding using various programming languages, creating website features, optimizing website accessibility, conducting quality testing, and troubleshooting issues.",
+            "tools": [
+                "Wordpress",
+                "MySQL",
+                "Google Analytics",
+                "Google Optimize",
+                "Advanced PHP",
+                "Bootstrap",
+                "Yoast SEO",
+                "Javascript",
+                "CSS",
+                "HTML"
+            ],
+            "challenge": [
+                "Responsible for bringing website designs to life by writing clean, efficient, and well-structured code that runs smoothly on a variety of devices and platforms"
+            ],
+            "liveLink": "https://asterra.com.ph/",
+            "contributors": [
+                {
+                    "role": "",
+                    "image": "JomarBalasbas.jpg",
+                    "link": "https://ph.linkedin.com/in/jomar-balasbas",
+                    "name": "Jomar Balasbas",
+                    "position": "Sr. Lead Full Stack Developer",
+                    "company": "Vista Land and Lifescapes, Inc."
+                },
+                {
+                    "role": "",
+                    "image": "JeanChua.jpg",
+                    "link": "https://ph.linkedin.com/in/jeannine-chua-4299bb188",
+                    "name": "Jeannine Chua",
+                    "position": "Senior Digital Marketing & Corporate Communication",
+                    "company": "Bria Homes, Inc."
+                }
+            ]
         },
         {
             "id": 3,
             "animateDelay": "animate-delay-[400ms]",
             "date": "August 2022",
             "link": "",
-            "subject": "Bria Homes Website"
+            "params": "Bria-Homes-Website",
+            "subject": "Bria Homes Website",
+            "img": "bria-home-page.png",
+            "titleDesc": "Real Estate Website",
+            "role": "UI/UX Designer and Frontend Developer",
+            "objective": "Designing website aesthetics, coding using various programming languages, managing website content, creating website features, optimizing website accessibility, conducting quality testing, and troubleshooting issues.",
+            "tools": [
+                "Wordpress",
+                "MySQL",
+                "Google Analytics",
+                "Google Optimize",
+                "Advanced PHP",
+                "Bootstrap",
+                "Yoast SEO",
+                "Javascript",
+                "CSS",
+                "HTML"
+            ],
+            "challenge": [
+                "Responsible for bringing website designs to life by writing clean, efficient, and well-structured code that runs smoothly on a variety of devices and platforms"
+            ],
+            "liveLink": "https://www.bria.com.ph/",
+            "contributors": [
+                {
+                    "role": "",
+                    "image": "JomarBalasbas.jpg",
+                    "link": "https://ph.linkedin.com/in/jomar-balasbas",
+                    "name": "Jomar Balasbas",
+                    "position": "Sr. Lead Full Stack Developer",
+                    "company": "Vista Land and Lifescapes, Inc."
+                },
+                {
+                    "role": "",
+                    "image": "JeanChua.jpg",
+                    "link": "https://ph.linkedin.com/in/jeannine-chua-4299bb188",
+                    "name": "Jeannine Chua",
+                    "position": "Senior Digital Marketing & Corporate Communication",
+                    "company": "Bria Homes, Inc."
+                }
+            ]
+
         },
         {
             "id": 4,
             "animateDelay": "animate-delay-[500ms]",
-            "date": "Jan 2022",
+            "date": "Jan 2022 - Jun 2022",
             "link": "",
-            "subject": "CHED Application of program management system"
+            "params": "CHED-Application-of-program-management-system",
+            "subject": "CHED Application of program management system",
+            "img": "CHEDDashboard.png",
+            "titleDesc": "Application of Programs Management System",
+            "role": "Project Lead, UI/UX Designer, Frontend Developer",
+            "objective": "A web-based application for the processing of program applications by various Higher Education Institutions.",
+            "tools": [
+                "Vue JS",
+                "NodeJS",
+                "Visual Studio Code",
+                "Figma",
+                "Figma",
+                "Tailwind CSS",
+                "Parse Server/Dashboard",
+                "Laragon",
+                "Robo 3T",
+                "Mongo DB Compass"
+            ],
+            "challenge": [
+                "Booking systems are being used in an increasing number of venues. The majority of the booking system's features are not accessible tothe user or administrator. Even when purchasing anything online, the item is reserved for the potential buyer. The more resources and other dynamic elements a system possesses, the more processing must be performed.",
+                "According to the findings of the usability test that was done in the areas of shop owners and clients, the users were able to appreciate the application. The client was able to book their desired services without having to walk to the shop. The shop owner was able to evaluate the appointments set by the user and accept or reject them in a timely manner.",
+                "The test resulted in an overall positive response, with client users successfully completing the appointment schedule via the mobile application. Using the formula in calculating the SUS score, Client application got a average score of 75% while the shop owner application with the average score of 68%."
+            ],
+            "liveLink": "",
+            "contributors": [
+                {
+                    "role": "",
+                    "image": "JeffPic.jpg",
+                    "link": "https://www.linkedin.com/in/jeff-vincent-banday-a01076239/",
+                    "name": "Jeff C. Banday",
+                    "position": "Junior Research & Development Engineer",
+                    "company": "AWS"
+                },
+                {
+                    "role": "",
+                    "image": "SaqPic.jpg",
+                    "link": "https://www.linkedin.com/in/christiansaquillo/",
+                    "name": "Christian A. Saquillo",
+                    "position": "Technology Consultant ",
+                    "company": "DXC"
+                },
+                {
+                    "role": "",
+                    "image": "DuanePic.jpeg",
+                    "link": "https://www.linkedin.com/in/duane-xavier-bondad/",
+                    "name": "Duane Xavier Bondad",
+                    "position": "Junior Full Stack Developer",
+                    "company": "ABS-CBN Corporation"
+                },
+                {
+                    "role": "",
+                    "image": "SevPic.jpeg",
+                    "link": "https://www.linkedin.com/in/sevsarate/",
+                    "name": "Severino Sarate III",
+                    "position": "Associate Software Engineer",
+                    "company": "Infor"
+                }
+            ]
         },
         {
             "id": 5,
             "animateDelay": "animate-delay-[600ms]",
-            "date": "Jun 2021",
+            "date": "Jun 2021 - Dec 2021",
             "link": "",
-            "subject": "Booking Mobile Application"
+            "params": "Booking-Mobile-Application",
+            "subject": "Booking Mobile Application",
+            "img": "blookApps.png",
+            "titleDesc": "Mobile Booking Application for Salons, Barber Shops, and Beauty Salons",
+            "role": "UI/UX Designer and Frontend Developer",
+            "objective": "An application that can serve as a portal for salons, parlors, and barber shops on booking their appointments.",
+            "tools": [
+                "Flutter",
+                "Firebase",
+                "Visual Studio Code",
+                "Android Studio",
+                "Figma",
+                "Google Map API"
+            ],
+            "challenge": [
+                "Booking systems are being used in an increasing number of venues. The majority of the booking system's features are not accessible tothe user or administrator. Even when purchasing anything online, the item is reserved for the potential buyer. The more resources and other dynamic elements a system possesses, the more processing must be performed.",
+                "According to the findings of the usability test that was done in the areas of shop owners and clients, the users were able to appreciate the application. The client was able to book their desired services without having to walk to the shop. The shop owner was able to evaluate the appointments set by the user and accept or reject them in a timely manner.",
+                "The test resulted in an overall positive response, with client users successfully completing the appointment schedule via the mobile application. Using the formula in calculating the SUS score, Client application got a average score of 75% while the shop owner application with the average score of 68%."
+            ],
+            "liveLink": "",
+            "contributors": [
+                {
+                    "role": "",
+                    "image": "JeffPic.jpg",
+                    "link": "https://www.linkedin.com/in/jeff-vincent-banday-a01076239/",
+                    "name": "Jeff C. Banday",
+                    "position": "Junior Research & Development Engineer",
+                    "company": "AWS"
+                },
+                {
+                    "role": "",
+                    "image": "SaqPic.jpg",
+                    "link": "https://www.linkedin.com/in/christiansaquillo/",
+                    "name": "Christian A. Saquillo",
+                    "position": "Technology Consultant ",
+                    "company": "DXC"
+                }
+            ]
         }
     ]
 }
