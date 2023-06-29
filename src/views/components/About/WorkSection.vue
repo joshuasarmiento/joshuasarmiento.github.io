@@ -32,7 +32,7 @@ import BriaLogo from '../../../assets/img/BriaLogo.png'
 import ChedLogo from '../../../assets/img/ched-logo.png'
 
 const title = ref('Work Experience');
-const subject = ref('1+ years of professional development experience.');
+const subject = ref('1+ year of professional development experience.');
 const description = ref('I am eager to learn new technologies and contribute to the development of innovative applications.');
 
 const jobData = ref([{

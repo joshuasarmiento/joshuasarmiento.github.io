@@ -11,7 +11,7 @@
             </div>
 
             <div class="hidden sm:block sm:shrink-0">
-                <img alt="Paul Clapton" :src="profilePic" class="h-16 w-16 rounded-full object-cover shadow-sm" />
+                <img alt="Joshua Sarmiento" :src="profilePic" loading="lazy" class="h-16 w-16 rounded-full object-cover shadow-sm" />
             </div>
         </div>
         <div class=" mt-4">

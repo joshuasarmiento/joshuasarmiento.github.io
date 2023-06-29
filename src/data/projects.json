@@ -3,11 +3,38 @@
         {
             "id": 1,
             "animateDelay": "animate-delay-[200ms]",
-            "date": "July 2023 ",
+            "date": "July 2023",
             "link": "",
             "params": "Web-Application-Bria-Payment-Channel",
             "subject": "Web Application Bria Payment Channel",
-            "img": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/DesktopUI.png"
+            "img": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/desktopUIPC.png",
+            "titleDesc": "Web Application Payment Channel",
+            "role": "Full Stack Developer",
+            "objective": "Revamping the payment channel of Bria Homes, Inc. by rewriting code, re-designing the website, optimizing website accessibility, conducting quality testing, and troubleshooting issues.",
+            "tools": [
+                "Vite",
+                "VueJS",
+                "MySQL",
+                "Google Analytics",
+                "Google Optimize",
+                "NodeJS",
+                "Bootstrap",
+                "Tailwind CSS"
+            ],
+            "challenge": [
+                "Responsible for bringing website designs to life by writing clean, efficient, and well-structured code that runs smoothly on a variety of devices and platforms"
+            ],
+            "liveLink": "https://payment.bria.com.ph/",
+            "contributors": [
+                {
+                    "role": "",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JomarBalasbas.jpg",
+                    "link": "https://ph.linkedin.com/in/jomar-balasbas",
+                    "name": "Jomar Balasbas",
+                    "position": "Sr. Lead Full Stack Developer",
+                    "company": "Vista Land and Lifescapes, Inc."
+                }
+            ]
         },
         {
             "id": 2,
