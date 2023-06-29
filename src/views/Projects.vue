@@ -9,7 +9,7 @@
                 </p>
             </div>
         </div>
-        <div class="animate-in">
+        <div class="">
             <ul class="flex flex-col animated-list">
                 <li v-for="item in data" :key="item.id" class="py-3 group">
                     <div :class="item.animateDelay" class="animate-fade-up">

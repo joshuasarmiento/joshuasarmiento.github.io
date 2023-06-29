@@ -14,6 +14,7 @@
                 <router-link class="text-primary-link px-3 py-2" to="/about">About</router-link>
                 <router-link class="text-primary-link px-3 py-2" to="/projects">Projects</router-link>
                 <router-link class="text-primary-link px-3 py-2" to="/contact">Contact</router-link>
+                <router-link class="text-primary-link px-3 py-2" to="/charts">Charts</router-link>
             </nav>
 
             <div class="flex-1 items-center justify-end gap-4 sm:flex">
@@ -49,6 +50,9 @@
                             Projects
                         </router-link>
                         <router-link to="/contact" class="block rounded-md px-4 py-2 text-sm hover:bg-gray-200 text-primary-link" role="menuitem">
+                            Contact
+                        </router-link>  
+                        <router-link to="/charts" class="block rounded-md px-4 py-2 text-sm hover:bg-gray-200 text-primary-link" role="menuitem">
                             Contact
                         </router-link>  
                     </div>
