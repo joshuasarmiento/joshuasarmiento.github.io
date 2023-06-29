@@ -38,11 +38,13 @@
                 </li>
             </ul>
         </div>
+        <Charts/>
     </div>
 </main>
 </template>
 
 <script setup>
+import Charts from '../views/components/Project/Charts.vue';
 import {
     ref
 } from 'vue';

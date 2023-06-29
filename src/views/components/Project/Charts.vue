@@ -1,17 +1,10 @@
 <template>
-<main class="text-primary p-4 mt-4 md:mt-16 max-w-screen-sm mx-auto">
-<div class="text-primary flex flex-col gap-16 md:gap-24">
-    <div class="flex flex-col gap-8">
-        <div>
-            <h1 class="animate-fade-up text-2xl font-bold tracking-tight mb-2">My Activity</h1>
-            <p class="text-secondary animate-fade-up animate-delay-[100ms] text-sm">Coding Activity and languages over ALL TIME</p>
-        </div>
-    </div>
+<section>
     <article>
-        <div class="animate-fade-up animate-delay-[200ms]">
+        <div class="animate-fade-up animate-delay-[700ms]">
             <h2 class="text-xl font-bold tracking-wide mb-4">Coding Activity</h2>
         </div>
-        <section class="animate-fade-up animate-delay-[300ms] bg-gray-100 p-4 rounded-md w-[calc(100%+48px)] -ml-6 lg:w-[calc(100%+128px)] lg:-ml-16 md:rounded-lg max-w-none">
+        <section class="animate-fade-up animate-delay-[300ms] bg-gray-100 px-4 py-2 rounded-md w-[calc(100%+48px)] -ml-6 lg:w-[calc(100%+128px)] lg:-ml-16 md:rounded-lg max-w-none">
             <div class="overflow-x-auto">
                 <div class="whitespace-nowrap">
                     <figure class="">
@@ -21,10 +14,10 @@
             </div> 
         </section>
         <div class="h-10"></div>
-        <div class="animate-fade-up animate-delay-[400ms]">
+        <div class="animate-fade-up animate-delay-[800ms]">
             <h2 class="text-xl font-bold tracking-wide mb-4">Languages</h2>
         </div>
-        <section class="animate-fade-up animate-delay-[500ms] bg-gray-100 p-4 rounded-md w-[calc(100%+48px)] -ml-6 lg:w-[calc(100%+128px)] lg:-ml-16 md:rounded-lg max-w-none">
+        <section class="animate-fade-up animate-delay-[500ms] bg-white px-4 py-2  rounded-md w-[calc(100%+48px)] -ml-6 lg:w-[calc(100%+128px)] lg:-ml-16 md:rounded-lg max-w-none">
             <div class="overflow-x-auto">
                 <div class="whitespace-nowrap">
                     <figure>
@@ -33,10 +26,5 @@
             </div>
         </section>
     </article>
-</div>
-</main>
+</section>
 </template>
-
-<script setup>
-
-</script>
