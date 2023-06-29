@@ -10,7 +10,7 @@
             "img": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/desktopUIPC.png",
             "titleDesc": "Web Application Payment Channel",
             "role": "Full Stack Developer",
-            "objective": "Revamping the payment channel of Bria Homes, Inc. by rewriting code, re-designing the website, optimizing website accessibility, conducting quality testing, and troubleshooting issues.",
+            "objective": "Revamping the payment channel of Bria Homes by re-designing the website and rewriting code.",
             "tools": [
                 "Vite",
                 "VueJS",
@@ -18,7 +18,6 @@
                 "Google Analytics",
                 "Google Optimize",
                 "NodeJS",
-                "Bootstrap",
                 "Tailwind CSS"
             ],
             "challenge": [

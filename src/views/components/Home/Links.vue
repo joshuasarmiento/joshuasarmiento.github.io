@@ -9,6 +9,14 @@
         </a>
     </li>
     <li class="">
+        <a class="text-primary-link underline-offset-4 flex gap-2 items-center" target="_blank" href="https://www.figma.com/file/urOY58jE9kccAgKjMBvlFr/CV?type=design&node-id=0%3A1&mode=design&t=X99gcDNODYrojMaT-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="">Resume</span>
+        </a>
+    </li>
+    <li class="">
         <router-link class="text-primary-link flex gap-2 items-center" to="/contact">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
                 <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
