@@ -7,10 +7,18 @@
             "link": "",
             "params": "Web-Application-Bria-Payment-Channel",
             "subject": "Web Application Bria Payment Channel",
-            "img": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/desktopUIPC.png",
+            "img": [
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/pmHomepage.png",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/pmDashboard.png",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/pmGcash.png",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/pmBDO.png"
+            ],
             "titleDesc": "Web Application Payment Channel",
             "role": "Full Stack Developer",
             "objective": "Revamping the payment channel of Bria Homes by re-designing the website and rewriting code.",
+            "badges": [
+                "https://wakatime.com/badge/user/c4d7cc2e-ab09-411c-b19e-6ecc97663a9a/project/4fd5ceeb-d650-426f-91ac-5a9ba8c3166f.svg"
+            ],
             "tools": [
                 "Vite",
                 "VueJS",
@@ -42,10 +50,15 @@
             "link": "",
             "params": "Asterra-Condominium-Website",
             "subject": "Asterra Condominium Website",
-            "img": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/asterra.png",
+            "img": [
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/asterraHomepage.png",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/asterraAboutPage.png",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/asterraNewsUpdate.png"
+            ],
             "titleDesc": "Real Estate Website",
             "role": "UI/UX Designer and Frontend Developer",
             "objective": "Designing website aesthetics, coding using various programming languages, creating website features, optimizing website accessibility, conducting quality testing, and troubleshooting issues.",
+            "badges": [],
             "tools": [
                 "Wordpress",
                 "MySQL",
@@ -88,10 +101,15 @@
             "link": "",
             "params": "Bria-Homes-Website",
             "subject": "Bria Homes Website",
-            "img": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/bria-home-page.png",
+            "img": [
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/bria-home-page.png",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/bria-company-profile.png",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/briaWebsite.png"
+            ],
             "titleDesc": "Real Estate Website",
             "role": "UI/UX Designer and Frontend Developer",
             "objective": "Designing website aesthetics, coding using various programming languages, managing website content, creating website features, optimizing website accessibility, conducting quality testing, and troubleshooting issues.",
+            "badges": [],
             "tools": [
                 "Wordpress",
                 "MySQL",
@@ -135,10 +153,17 @@
             "link": "",
             "params": "CHED-Application-of-program-management-system",
             "subject": "CHED Application of program management system",
-            "img": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/CHEDDashboard.png",
+            "img": [
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/CHEDDashboard.png",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/chedDash.png",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/CHEDReports.png"
+            ],
             "titleDesc": "Application of Programs Management System",
             "role": "Project Lead, UI/UX Designer, Frontend Developer",
             "objective": "A web-based application for the processing of program applications by various Higher Education Institutions.",
+            "badges": [
+                "https://wakatime.com/badge/user/c4d7cc2e-ab09-411c-b19e-6ecc97663a9a/project/b4683abb-ce83-4902-8d1d-2d55af0ed364.svg"
+            ],
             "tools": [
                 "Vue JS",
                 "NodeJS",
@@ -199,10 +224,17 @@
             "link": "",
             "params": "Booking-Mobile-Application",
             "subject": "Booking Mobile Application",
-            "img": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/blookApps.png",
+            "img": [
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/blookApps.png"
+            ],
             "titleDesc": "Mobile Booking Application for Salons, Barber Shops, and Beauty Salons",
             "role": "UI/UX Designer and Frontend Developer",
             "objective": "An application that can serve as a portal for salons, parlors, and barber shops on booking their appointments.",
+            "badges": [
+                "https://wakatime.com/badge/user/c4d7cc2e-ab09-411c-b19e-6ecc97663a9a/project/b9e9dbb9-5398-48de-a0f7-4be27d66f86d.svg",
+                "https://wakatime.com/badge/user/c4d7cc2e-ab09-411c-b19e-6ecc97663a9a/project/8d31908d-cd3e-4580-8f23-0a1b701c2c3c.svg",
+                "https://wakatime.com/badge/user/c4d7cc2e-ab09-411c-b19e-6ecc97663a9a/project/aa67977d-4138-4cdf-97b3-d50acc0cf071.svg"
+            ],
             "tools": [
                 "Flutter",
                 "Firebase",

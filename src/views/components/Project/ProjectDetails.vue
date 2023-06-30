@@ -20,8 +20,32 @@
                     <h1 class="text-primary animate-fade-up animate-delay-[100ms] text-3xl font-bold tracking-tight leading-tight">{{ data.subject }}</h1>
                     <p class="text-xl text-secondary animate-fade-up animate-delay-[200ms] ">{{ data.titleDesc }}</p>
                 </div>
+                <div v-if="project.badges != ''">
+                    <div class="h-4"></div>
+                    <p class="text-secondary animate-fade-up animate-delay-[300ms]">
+                        <time datetime="2023-03-05">Time spent in the project:</time>
+                    </p>
+                    <div class="flex space-x-4 mt-2 animate-fade-up animate-delay-[300ms]">
+                        <div v-for="badge in project.badges" :key="badge">
+                            <img :src="badge" loading="lazy" alt="">
+                        </div>
+                    </div>
+                </div>
                 <div class="h-8"></div>
                 <img :src="data.img" :alt="data.subject" loading="lazy" fetchpriority="high" decoding="async" data-nimg="1" class="animate-fade-up animate-delay-[300ms] w-[calc(100%+48px)] -ml-6 lg:w-[calc(100%+128px)] lg:-ml-16 md:rounded-lg max-w-none shadow-md" style="color: transparent;" width="700" height="350">
+
+                <Carousel :autoplay="2000" :wrap-around="true">
+                    <Slide v-for="slide in project.img" :key="slide">
+                        <div class="carousel__item">{{ slide }}</div>
+                        <!-- <img :src="data.img" :alt="data.subject" loading="lazy" fetchpriority="high" decoding="async" data-nimg="1" class="animate-fade-up animate-delay-[300ms] w-[calc(100%+48px)] -ml-6 lg:w-[calc(100%+128px)] lg:-ml-16 md:rounded-lg max-w-none shadow-md" style="color: transparent;" width="700" height="350"> -->
+
+                    </Slide>
+
+                    <template #addons>
+                        <Pagination />
+                    </template>
+                </Carousel>
+
                 <div class="h-16"></div>
                 <div class="animate-fade-up animate-delay-[400ms]">
                     <h2 class="text-xl font-bold tracking-wide mb-4">Objective</h2>
@@ -92,6 +116,10 @@
 </template>
 
 <script setup>
+import { defineComponent } from 'vue'
+import { Carousel, Pagination, Slide } from 'vue3-carousel'
+
+import 'vue3-carousel/dist/carousel.css'
 import {
     ref,
     computed
@@ -100,12 +128,21 @@ import {
     useRoute
 } from 'vue-router'
 import projects from '../../../data/projects.json';
+
+defineComponent({
+  name: 'Autoplay',
+  components: {
+    Carousel,
+    Slide,
+    Pagination,
+  },
+})
+
 const route = useRoute();
 const projectId = ref(route.params.id);
 
 const data = ref(null);
 
 const project = projects.projectDetails.find((item) => item.params === projectId.value);
-
 project ? data.value = project : '';
 </script>

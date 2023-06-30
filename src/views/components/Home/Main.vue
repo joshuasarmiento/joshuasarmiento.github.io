@@ -23,6 +23,8 @@
         </p>
         <!-- Links -->
         <LinksSection/>
+        <!-- WakaTime -->
+        <Charts/>
     </div>
 </section>
 </template>
@@ -31,6 +33,7 @@
 import { ref } from "vue";
 import profilePic from '../../../assets/img/profilePic.jpg';
 import LinksSection from './Links.vue';
+import Charts from '../Project/Charts.vue'
 
 const name = ref('Joshua Sarmiento');
 const subject = ref('I design and write code.');

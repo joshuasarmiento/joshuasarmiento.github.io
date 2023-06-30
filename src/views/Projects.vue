@@ -19,14 +19,12 @@
                                 <h2 class="md:w-40 text-secondary text-sm shrink-0">
                                     {{item.date}}
                                 </h2>
-                                <router-link 
-                                :to="{
+                                <router-link :to="{
                                     name: 'projectsDetails',
                                     params: {
                                         id: item.params,
                                     }
-                                }"
-                                >
+                                }">
                                     <span class="font-medium leading-tight hover:animate-pulse">
                                         {{ item.subject }}
                                     </span>
@@ -38,7 +36,6 @@
                 </li>
             </ul>
         </div>
-        <Charts/>
     </div>
 </main>
 </template>
