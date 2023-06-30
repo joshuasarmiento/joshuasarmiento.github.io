@@ -41,14 +41,23 @@
 </template>
 
 <script setup>
-import Charts from '../views/components/Project/Charts.vue';
-import {
-    ref
-} from 'vue';
+import {ref} from 'vue';
 import projects from '../data/projects.json';
 const title = ref('Projects');
 const description = ref("If you have any questions or would like to learn more about my work, please don't hesitate to");
 const data = ref(projects.projectDetails);
+import {
+    useRouter
+} from 'vue-router'
+
+const router = useRouter();
+router.beforeEach((to, from, next) => {
+  if (to.path !== from.path) {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+  next();
+});
+
 </script>
 
 <style></style>

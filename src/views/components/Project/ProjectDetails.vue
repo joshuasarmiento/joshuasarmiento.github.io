@@ -32,25 +32,15 @@
                     </div>
                 </div>
                 <div class="h-8"></div>
-                <img :src="data.img" :alt="data.subject" loading="lazy" fetchpriority="high" decoding="async" data-nimg="1" class="animate-fade-up animate-delay-[300ms] w-[calc(100%+48px)] -ml-6 lg:w-[calc(100%+128px)] lg:-ml-16 md:rounded-lg max-w-none shadow-md" style="color: transparent;" width="700" height="350">
-
-                <Carousel :autoplay="2000" :wrap-around="true">
-                    <Slide v-for="slide in project.img" :key="slide">
-                        <div class="carousel__item">{{ slide }}</div>
-                        <!-- <img :src="data.img" :alt="data.subject" loading="lazy" fetchpriority="high" decoding="async" data-nimg="1" class="animate-fade-up animate-delay-[300ms] w-[calc(100%+48px)] -ml-6 lg:w-[calc(100%+128px)] lg:-ml-16 md:rounded-lg max-w-none shadow-md" style="color: transparent;" width="700" height="350"> -->
-
-                    </Slide>
-
-                    <template #addons>
-                        <Pagination />
-                    </template>
-                </Carousel>
+                <!-- <img :src="data.img" :alt="data.subject" loading="lazy" fetchpriority="high" decoding="async" data-nimg="1" class="animate-fade-up animate-delay-[300ms] w-[calc(100%+48px)] -ml-6 lg:w-[calc(100%+128px)] lg:-ml-16 md:rounded-lg max-w-none shadow-md" style="color: transparent;" width="700" height="350"> -->
+                <CarouselSection :project="project.img" />
 
                 <div class="h-16"></div>
                 <div class="animate-fade-up animate-delay-[400ms]">
                     <h2 class="text-xl font-bold tracking-wide mb-4">Objective</h2>
                     <p>{{ data.objective }}</p>
                 </div>
+
                 <div class="h-10"></div>
                 <div class="animate-fade-up animate-delay-[500ms]">
                     <h2 class="text-xl font-bold tracking-wide  mb-4">Tools and Technologies Used</h2>
@@ -58,11 +48,19 @@
                         <li class="pr-2">{{ tool }} |</li>
                     </ul>
                 </div>
+
                 <div class="h-10"></div>
                 <div class="animate-fade-up animate-delay-[600ms]">
                     <h2 class="text-xl font-bold tracking-wide mb-4">Challenge</h2>
                     <p v-for="chal in project.challenge" :key="chal" class="pb-4">{{ chal }}</p>
                 </div>
+
+                <div v-if="project.poster" class="h-10"></div>
+                <div v-if="project.poster" class="animate-fade-up animate-delay-[600ms]">
+                    <h2 class="text-xl font-bold tracking-wide mb-4">Poster</h2>
+                    <img :src="project.poster" alt="Poster" class="rounded-lg">
+                </div>
+
                 <div v-if="data.liveLink" class="h-8"></div>
                 <a v-if="data.liveLink" class="group relative underline-offset-4 inline-flex items-center overflow-hidden rounded border border-current px-8 py-3" target="_blank" :href="data.liveLink">
                     <span class="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 group-hover:h-1 group-hover:animate-fade-up group-hover:animate-duration-[200ms]"></span>
@@ -76,9 +74,10 @@
                         Visit the website
                     </span>
                 </a>
+
                 <div class="divider py-8"></div>
                 <h2 class="text-xl font-bold tracking-wide mb-4">Other Contributors</h2>
-                <article v-if="data.contributors" class="border border-gray-500 rounded-md p-4 w-[calc(100%+48px)] -ml-6 lg:w-[calc(100%+128px)] lg:-ml-16">
+                <div v-if="data.contributors" class="border border-gray-500 rounded-md p-4 w-[calc(100%+48px)] -ml-6 lg:w-[calc(100%+128px)] lg:-ml-16">
                     <div v-for="contri in project.contributors" :key="contri" class="flex justify-between items-center py-2 gap-4">
                         <div class="flex items-center gap-4">
                             <img :alt="contri.name" :src="contri.image" loading="lazy" class="h-16 w-16 rounded-full object-cover" />
@@ -108,7 +107,8 @@
                             <span class="text-xs font-medium "> {{ contri.company }} </span>
                         </div>
                     </div>
-                </article>
+                </div>
+
             </article>
         </div>
     </section>
@@ -116,33 +116,19 @@
 </template>
 
 <script setup>
-import { defineComponent } from 'vue'
-import { Carousel, Pagination, Slide } from 'vue3-carousel'
-
-import 'vue3-carousel/dist/carousel.css'
 import {
     ref,
-    computed
+    computed,
+    onMounted
 } from 'vue';
 import {
     useRoute
 } from 'vue-router'
 import projects from '../../../data/projects.json';
-
-defineComponent({
-  name: 'Autoplay',
-  components: {
-    Carousel,
-    Slide,
-    Pagination,
-  },
-})
-
+import CarouselSection from '../Project/CarouselSection.vue';
 const route = useRoute();
 const projectId = ref(route.params.id);
-
 const data = ref(null);
-
 const project = projects.projectDetails.find((item) => item.params === projectId.value);
 project ? data.value = project : '';
 </script>

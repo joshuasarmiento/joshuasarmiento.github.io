@@ -31,6 +31,7 @@
             "challenge": [
                 "Responsible for bringing website designs to life by writing clean, efficient, and well-structured code that runs smoothly on a variety of devices and platforms"
             ],
+            "poster": "",
             "liveLink": "https://payment.bria.com.ph/",
             "contributors": [
                 {
@@ -74,6 +75,7 @@
             "challenge": [
                 "Responsible for bringing website designs to life by writing clean, efficient, and well-structured code that runs smoothly on a variety of devices and platforms"
             ],
+            "poster": "",
             "liveLink": "https://asterra.com.ph/",
             "contributors": [
                 {
@@ -102,9 +104,9 @@
             "params": "Bria-Homes-Website",
             "subject": "Bria Homes Website",
             "img": [
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/bria-home-page.png",
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/bria-company-profile.png",
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/briaWebsite.png"
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/briaHomepage.png",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/briaAboutPage.png",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/briaNewsUpdates.png"
             ],
             "titleDesc": "Real Estate Website",
             "role": "UI/UX Designer and Frontend Developer",
@@ -125,6 +127,7 @@
             "challenge": [
                 "Responsible for bringing website designs to life by writing clean, efficient, and well-structured code that runs smoothly on a variety of devices and platforms"
             ],
+            "poster": "",
             "liveLink": "https://www.bria.com.ph/",
             "contributors": [
                 {
@@ -181,6 +184,7 @@
                 "The current program application process causing a lot of concerns which are; documents are mixed up or even forgotten by the supervisors because it’s voluminous, supervisors sometimes forget to prepare follow-up letters for HEIs because of the unorganized documents, and HEIs operating programs even without the corresponding government authority, HEIs non-observance of the timelines causing a delay in application progress, and the Commission issuing Special Order for Graduation which all leads to delays in the issuance of corresponding government authority for HEIs.",
                 "The CHED Programs Application Management System was developed in order to have a more efficient and effective way of managing HEIs program applications. This system should take away the hassle of the manual application process that the CHED is currently implementing."
             ],
+            "poster": "",
             "liveLink": "",
             "contributors": [
                 {
@@ -225,7 +229,8 @@
             "params": "Booking-Mobile-Application",
             "subject": "Booking Mobile Application",
             "img": [
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/blookApps.png"
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/blookApp.png",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/blookBanner.png"
             ],
             "titleDesc": "Mobile Booking Application for Salons, Barber Shops, and Beauty Salons",
             "role": "UI/UX Designer and Frontend Developer",
@@ -248,6 +253,7 @@
                 "According to the findings of the usability test that was done in the areas of shop owners and clients, the users were able to appreciate the application. The client was able to book their desired services without having to walk to the shop. The shop owner was able to evaluate the appointments set by the user and accept or reject them in a timely manner.",
                 "The test resulted in an overall positive response, with client users successfully completing the appointment schedule via the mobile application. Using the formula in calculating the SUS score, Client application got a average score of 75% while the shop owner application with the average score of 68%."
             ],
+            "poster": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/Poster.jpg",
             "liveLink": "",
             "contributors": [
                 {

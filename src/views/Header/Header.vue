@@ -97,6 +97,9 @@ import {
     useDark,
     useToggle
 } from "@vueuse/core";
+import {
+    useRouter
+} from 'vue-router'
 
 const toggleMenu = ref(false);
 const toggleMentFunc = () => {
@@ -120,6 +123,15 @@ const toggleDark = useToggle(isDark);
 const toggleTheme = () => {
     isDarkmode.value = !isDarkmode.value;
 };
+
+const router = useRouter();
+router.beforeEach((to, from, next) => {
+  if (to.path !== from.path) {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+  next();
+});
+
 </script>
 
 <style scoped>
