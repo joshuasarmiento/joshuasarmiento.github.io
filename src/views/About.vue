@@ -1,5 +1,5 @@
 <template>
-<main class="text-primary p-4  mt-4 md:mt-16 max-w-screen-sm mx-auto">
+<main class="text-primary p-4 mt-4 md:mt-16 max-w-[700px] mx-auto">
     <div class="flex flex-col gap-16 md:gap-24">
         <CardProfile :title="title" :description="description" />
         <ConnectLinks/>

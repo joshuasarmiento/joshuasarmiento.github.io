@@ -1,13 +1,13 @@
 <template>
 <section class="animate-fade-up">
-    <div href="#" class="primary-text relative block overflow-hidden rounded-lg border border-gray-100 p-4 sm:p-6 lg:p-8">
+    <div href="#" class="primary-text relative block overflow-hidden rounded-lg border border-neutral-200 dark:border-neutral-900 p-4 sm:p-6 lg:p-8">
         <span class="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>
         <div class="sm:flex sm:justify-between sm:gap-4">
             <div class="">
                 <h3 class=" font-bold sm:text-xl">
                     About me
                 </h3>
-                <p class="mt-1 text-sm font-medium text-secondary">Hello world!</p>
+                <p class="mt-1 text-sm text-secondary">Hello world!</p>
             </div>
 
             <div class="hidden sm:block sm:shrink-0">

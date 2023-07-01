@@ -1,6 +1,6 @@
 <template>
-<main class="text-primary p-4  mt-4 md:mt-16 mx-auto max-w-screen-sm">
-    <div class="text-primary flex flex-col gap-16 md:gap-24">
+<main class="text-primary mt-4 md:mt-16 mx-auto max-w-[700px]">
+    <div class="text-primary flex flex-col gap-16 md:gap-24 p-4">
         <div class="flex flex-col gap-8 animate-in">
             <img alt="avatar" loading="lazy" decoding="async" data-nimg="1" class="animate-fade-up rounded-full bg-secondary mx-auto animate-in" style="color: transparent; --index: 1;" :src="profilePic" :style="imgStyle" width="100" height="100">
             <div class="animate-fade-up animate-delay-[100ms] space-y-1 animate-in" style="--index: 2;">
@@ -8,9 +8,9 @@
                 <p class="max-w-sm text-secondary text-sm mx-auto text-center">Frontend Developer</p>
             </div>
         </div>
-        <ul class="flex-grow grid grid-cols-1 gap-2 lg:gap-3" style="--index: 3;">
+        <ul class="flex-grow grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-3" style="--index: 3;">
             <li v-for="data in connectLinks" :key="data.id" class="col-span-1">
-                <a :class="data.animateDelay" class="animate-fade-up text-sm relative underline-offset-4 overflow-hidden transition-opacity no-underline w-full border rounded-lg p-4 border-primary inline-grid group" target="_blank" :href="data.link">
+                <a :class="data.animateDelay" class="animate-fade-up text-sm relative underline-offset-4 overflow-hidden transition-opacity no-underline w-full border border-neutral-200 dark:border-neutral-900 rounded-lg p-4 border-primary inline-grid group" target="_blank" :href="data.link">
                     <span class="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 group-hover:h-2 group-hover:animate-fade-up group-hover:animate-duration-[200ms]"></span>
                     <div class="flex justify-between gap-3">
                         <span class="flex">

@@ -1,5 +1,5 @@
 <template>
-<main class="text-primary p-4 max-w-screen-sm mx-auto">
+<main class="text-primary p-4 max-w-[700px] mx-auto">
     <ReturnLink/>
     <ProjectDev :data="data" :project="project"/>
     <ProjectDesign :dataUIUX="dataUIUX" :projectUIUX="projectUIUX"/>

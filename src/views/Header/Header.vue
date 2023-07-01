@@ -1,6 +1,6 @@
 <template>
-<header class="mx-auto max-w-screen-sm">
-    <div class="p-4">
+<header class="mx-auto max-w-[700px]">
+    <div class="p-4 max-w-full">
         <div class="flex items-center justify-between gap-4">
             <div class="flex lg:w-0 lg:flex-1">
                 <div class="animate-fade">
@@ -9,13 +9,11 @@
                     </router-link>
                 </div>
             </div>
-
-            <nav aria-label="Global" class="hidden gap-8 lg:ml-16 text-sm font-medium sm:flex animate-fade">
-                <router-link class="text-primary-link px-3 py-2" to="/about">About</router-link>
-                <router-link class="text-primary-link px-3 py-2" to="/projects">Projects</router-link>
-                <router-link class="text-primary-link px-3 py-2" to="/contact">Contact</router-link>
+            <nav aria-label="Global" class="hidden gap-4 lg:ml-16 text-sm sm:flex animate-fade">
+                <router-link class="text-primary-link px-3 py-2 text-[13px]" to="/about">About</router-link>
+                <router-link class="text-primary-link px-3 py-2 text-[13px]" to="/projects">Projects</router-link>
+                <router-link class="text-primary-link px-3 py-2 text-[13px]" to="/contact">Contact</router-link>
             </nav>
-
             <!-- <div class="flex-1 items-center justify-end gap-4 sm:flex">
                 <div class="animate-fade">
                     <a class="cursor-pointer" @click="toggleDark(); toggleTheme();">
@@ -23,20 +21,15 @@
                     </a>
                 </div>
             </div> -->
-
             <div class="flex-auto"></div> <!-- Add this line -->
-
-            <label for="AcceptConditions" class=" relative h-6 w-10 cursor-pointer ">
+            <label for="AcceptConditions" class=" relative h-6 w-10 cursor-pointer animate-fade">
                 <input @click="!toggleDark(); toggleTheme();" type="checkbox" id="AcceptConditions" class="peer sr-only [&:checked_+_span_svg[data-checked-icon]]:block [&:checked_+_span_svg[data-unchecked-icon]]:hidden" />
-
                 <span class="absolute inset-y-0 start-0 z-10 m-1 inline-flex h-4 w-4 items-center justify-center rounded-full bg-black dark:bg-white text-gray-400 transition-all peer-checked:start-4 peer-checked:text-gray-600">
                     <img :src="icon" class="w-5 h-5 text-gray-100" :alt="iconAlt" />
                 </span>
-
                 <span class="absolute inset-0 rounded-full transition peer-checked:bg-transparent border dark:border-gray-500"></span>
             </label>
-
-            <div class="block lg:hidden sm:hidden animate-fade">
+            <div class="block sm:hidden animate-fade">
                 <button class="p-2 text-slate-600 dark:text-slate-300" type="button" @click="toggleMentFunc();">
                     <span class="sr-only">Open menu</span>
                     <svg v-if="!toggleMenu" aria-hidden="true" class="h-5 w-5" fill="currentColor" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -58,7 +51,6 @@
                     </svg>
                 </button>
             </div>
-
             <div v-if="toggleMenu === true" :class="toggleMenu ? 'animate-fade-left animate-duration-[400ms]' : 'animate-fade-right animate-duration-[400ms]' " class="relative z-20">
                 <div class="absolute end-0 z-10 mt-8 w-56 mr-4 divide-y divide-gray-100 border rounded-md border-gray-100 bg-white dark:bg-[#000000f2] shadow-lg" role="menu">
                     <div class="p-2">
@@ -126,20 +118,24 @@ const toggleTheme = () => {
 
 const router = useRouter();
 router.beforeEach((to, from, next) => {
-  if (to.path !== from.path) {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-  next();
+    if (to.path !== from.path) {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+    next();
 });
-
 </script>
 
 <style scoped>
 a.router-link-exact-active {
     @apply bg-gray-200;
     @apply border-gray-200;
-    @apply text-gray-500;
-    @apply dark:bg-gray-200;
-    @apply rounded-md
+    @apply text-gray-800;
+    @apply dark:text-gray-200;
+    @apply dark:bg-neutral-800;
+    @apply dark:hover:text-gray-300;
+    @apply rounded-md;
 }
 </style>

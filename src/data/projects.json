@@ -284,7 +284,7 @@
             "animateDelay": "animate-delay-[100ms]",
             "date": "February 2021",
             "params": "The-sexy-pg-project",
-            "subject": "THE SEXY PIG PROJECT",
+            "subject": "The Sexy Pig Project",
             "embedLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fr2pzMICosP586rTVgNq63n%2FUntitled%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DKyfbSw1kEOtFECJE-1",
             "titleDesc": "Web and Mobile Booking Shop Wireframe",
             "role": "UI/UX Designer",
@@ -312,6 +312,32 @@
                 "However, I don't want to limit my target audience to just the agricultural sector. I also aim to tap into the growing trend of 'Plantitos and Plantitas' which refers to people who enjoy gardening and cultivating plants. By including this demographic, I can expand my market to a wider audience and ensure the profitability and flexibility of my venture.",
                 "Overall, my goal is to leverage the booming eCommerce industry by introducing new products and catering to underserved sectors like agriculture. Through my centralized marketplace, I aim to provide a platform for farmers and individuals interested in gardening to access and sell their products online, ultimately benefiting both the industry and the broader masses."
             ]
+        }
+    ],
+    "OpenSource": [
+        {
+            "id": 1,
+            "animateDelay": "animate-delay-[100ms]",
+            "date": "July 2023",
+            "params": "online-portfolio", 
+            "subject": "Online Portfolio",
+            "link": "https://github.com/joshuasarmiento/joshuasarmiento.github.io"
+        },
+        {
+            "id": 2,
+            "animateDelay": "animate-delay-[200ms]",
+            "date": "June 2023",
+            "params": "Open-AI-Starter", 
+            "subject": "Open AI Starter",
+            "link": "https://github.com/joshuasarmiento/open-ai-starter"
+        },
+        {
+            "id": 3,
+            "animateDelay": "animate-delay-[300ms]",
+            "date": "July 2022",
+            "params": "Recipe-API", 
+            "subject": "Recipe API",
+            "link": "https://github.com/joshuasarmiento/RecipeAPI"
         }
     ]
 }

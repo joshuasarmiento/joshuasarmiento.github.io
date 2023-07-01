@@ -1,15 +1,15 @@
 <template>
 <div>
-    <div class="text-primary text-sm flex animate-fade">
+    <div class="text-primary text-sm flex flex-col md:flex-row animate-fade">
         <div v-for="(tab, index) in tabs" :key="index" :class="{
-            'border w-fit border-gray-500 ': activeTab === index,
-            ' border-gray-500 ': activeTab !== index,
+            'mr-2 md:rounded-md border md:border-x w-full md:w-fit border-neutral-200 dark:border-neutral-900 ': activeTab === index,
+            'mr-2 border-neutral-200 dark:border-neutral-900': activeTab !== index,
             '': index === 0,
             '': index === tabs.length - 1
           }" class="py-2 px-4 cursor-pointer relative underline-offset-4 overflow-hidden group" @click="changeTab(index)"
           >
           <span class="absolute inset-x-0 bottom-0 h-0.5 group-hover:h-1.5 group-hover:animate-fade-up group-hover:animate-duration-[200ms] bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>
-            {{ tab }}
+          {{ tab }}
         </div>
     </div>
 
@@ -23,6 +23,10 @@
             <!-- UI/UX Design -->
             <TabDesign :design="design" />
         </div>
+        <div v-show="activeTab === 2">
+            <!-- Open Source -->
+            <TabOpenSource :openSouce="openSouce" />
+        </div>
     </div>
 </div>
 </template>
@@ -33,11 +37,13 @@ import projects from '../data/projects.json';
 import { useRouter } from 'vue-router'
 import TabDev from './components/Project/TabContent/TabDev.vue'
 import TabDesign from './components/Project/TabContent/TabDesign.vue'
+import TabOpenSource from './components/Project/TabContent/TabOpenSource.vue'
 
 const activeTab = ref(0);
-const tabs = ref(['Application Development', 'UI/UX Design']);
+const tabs = ref(['Application Development', 'UI/UX Design', 'Open Source']);
 const data = ref(projects.projectDetails);
 const design = ref(projects.UIUXdesign);
+const openSouce = ref(projects.OpenSource);
 
 
 const router = useRouter();

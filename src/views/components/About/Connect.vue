@@ -5,7 +5,7 @@
         <p class="text-sm">Have a question or just want to chat? Feel free to <a href="mailto:sarmientojoshuaalvarez@gmail.com" class="underline">email me</a>.</p>
         <ul class="flex-grow grid grid-cols-1 md:grid-cols-2 gap-2 animated-list">
             <li v-for="data in connectLinks" :key="data.id" class="col-span-1">
-                <a  class="text-sm relative underline-offset-4 overflow-hidden no-underline w-full border rounded-lg p-4 border-primary inline-grid group" target="_blank" :href="data.link">
+                <a  class="text-sm relative underline-offset-4 overflow-hidden no-underline w-full border border-neutral-200 dark:border-neutral-900 rounded-lg p-4 border-primary inline-grid group" target="_blank" :href="data.link">
                     <span class="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 group-hover:h-2 group-hover:animate-fade-up group-hover:animate-duration-[200ms]"></span>
                     <div class="flex justify-between gap-3">
                         <span class="flex">
