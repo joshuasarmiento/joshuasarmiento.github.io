@@ -7,6 +7,7 @@
             "link": "",
             "params": "Web-Application-Bria-Payment-Channel",
             "subject": "Web Application Bria Payment Channel",
+            "embedLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FlxtEbbIJDKwanHOWqh754L%2FPayment-Channel-Base-Design%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DQNDqAsQoEyuSPpKq-1",
             "img": [
                 "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/pmHomepage.png",
                 "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/pmDashboard.png",
@@ -156,9 +157,9 @@
             "link": "",
             "params": "CHED-Application-of-program-management-system",
             "subject": "CHED Application of program management system",
+            "embedLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FX68ffeqr5Rj0pddzuJaLRA%2FCHED-Application-Management-System%3Ftype%3Ddesign%26node-id%3D113%253A4%26mode%3Ddesign%26t%3DTM2Kt8ayJYvdJDYx-1",
             "img": [
                 "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/CHEDDashboard.png",
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/chedDash.png",
                 "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/CHEDReports.png"
             ],
             "titleDesc": "Application of Programs Management System",
@@ -228,6 +229,7 @@
             "link": "",
             "params": "Booking-Mobile-Application",
             "subject": "Booking Mobile Application",
+            "embedLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fh3SJxOupSDTlNpcQhYQxNc%2FBLook%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DbdwynpI7tuSLGXke-1",
             "img": [
                 "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/blookApp.png",
                 "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/blookBanner.png"
@@ -272,6 +274,41 @@
                     "position": "Technology Consultant ",
                     "company": "DXC"
                 }
+            ]
+        }
+    ],
+    "UIUXdesign": [
+        {
+            "id": 1,
+            "animateDelay": "animate-delay-[100ms]",
+            "date": "February 2021",
+            "params": "The-sexy-pg-project",
+            "subject": "THE SEXY PIG PROJECT",
+            "embedLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fr2pzMICosP586rTVgNq63n%2FUntitled%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DKyfbSw1kEOtFECJE-1",
+            "titleDesc": "Web and Mobile Booking Shop Design System",
+            "role": "UI/UX Designer",
+            "objective": "The goal of this project is to offer a specific taste of cakes and pastries by creating a handmade web and mobile based online shop. The Desktop based of the project is a store administrator, whose duties are to oversee the daily operations of the retail store.",
+            "challenge": [
+                "The mobile wireframe starts from the home screen, then product categories, product details, cart view and checkout screen. The user can use the hamburger button to see additional lists of information, including login screen, sign up screen and about us screen. The wireframes and decision nodes involved in the flow are shown.",
+                "The website user flow is nearly the same as mobile user flow, it just differs from the hamburger button. Starts from the home screen, then product categories, product details, cart view and checkout screen. The user can see additional lists of information, including login screen, sign up screen. The wireframes and decision nodes involved in the flow are shown.",
+                "The e-commerce system has many benefits relative to a traditional shop where a product can be compared with other websites and can also be returned if a customer doesn't like a product. In order to solve the issue of the existing method, we should still use new technologies.",
+                "Shopping online is becoming more and more popular. A rigorous and efficient approach for mobile marketing is no longer optional. It's a must. The Sexy Pig Mobile Project has to target customers where they are, because they are increasingly on mobile devices."
+            ]
+        },
+        {
+            "id": 2,
+            "animateDelay": "animate-delay-[200ms]",
+            "date": "January 2021",
+            "params": "AGRICOM-Venture-Incorporated",
+            "subject": "AGRICOM Venture Incorporated",
+            "embedLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FK0m3gre7Pl8ewvizrLVV1L%2FEntrep-Project%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DTM2Kt8ayJYvdJDYx-1",
+            "titleDesc": "Web Design Application System",
+            "role": "UI/UX Designer",
+            "objective": "AGRICOM is a web system developed with the purpose to put agriculture in eCommerce to adapt to the changes that have been brought about by the pandemic.",
+            "challenge": [
+                "Booking systems are being used in an increasing number of venues. The majority of the booking system's features are not accessible tothe user or administrator. Even when purchasing anything online, the item is reserved for the potential buyer. The more resources and other dynamic elements a system possesses, the more processing must be performed.",
+                "According to the findings of the usability test that was done in the areas of shop owners and clients, the users were able to appreciate the application. The client was able to book their desired services without having to walk to the shop. The shop owner was able to evaluate the appointments set by the user and accept or reject them in a timely manner.",
+                "The test resulted in an overall positive response, with client users successfully completing the appointment schedule via the mobile application. Using the formula in calculating the SUS score, Client application got a average score of 75% while the shop owner application with the average score of 68%."
             ]
         }
     ]
