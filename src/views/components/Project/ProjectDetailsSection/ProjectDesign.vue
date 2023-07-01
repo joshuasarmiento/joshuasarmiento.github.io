@@ -25,7 +25,7 @@
             </div>
 
             <div class="h-8"></div>
-            <a class="group relative underline-offset-4 inline-flex items-center overflow-hidden rounded border border-current px-8 py-3" target="_blank" :href="dataUIUX.embedLink">
+            <a class="animate-fade-up animate-delay-[600ms] group relative underline-offset-4 inline-flex items-center overflow-hidden rounded border border-current px-8 py-3" target="_blank" :href="dataUIUX.embedLink">
                 <span class="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 group-hover:h-1 group-hover:animate-fade-up group-hover:animate-duration-[200ms]"></span>
                 <span class="absolute -end-full transition-all group-hover:end-4">
                     <svg class="h-5 w-5 rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
