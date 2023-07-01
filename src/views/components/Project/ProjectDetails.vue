@@ -17,8 +17,8 @@ import {
 } from 'vue-router'
 
 import ReturnLink from "../../reusable/Return.vue"
-import ProjectDev from "./ProjectDev.vue"
-import ProjectDesign from "./ProjectDesign.vue"
+import ProjectDev from "./ProjectDetailsSection/ProjectDev.vue"
+import ProjectDesign from "./ProjectDetailsSection/ProjectDesign.vue"
 import projects from '../../../data/projects.json';
 const route = useRoute();
 const projectId = ref(route.params.id);

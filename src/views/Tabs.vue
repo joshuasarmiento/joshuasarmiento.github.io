@@ -3,11 +3,12 @@
     <div class="text-primary text-sm flex animate-fade">
         <div v-for="(tab, index) in tabs" :key="index" :class="{
             'border w-fit border-gray-500 ': activeTab === index,
-            ' border-gray-500': activeTab !== index,
+            ' border-gray-500 ': activeTab !== index,
             '': index === 0,
             '': index === tabs.length - 1
-          }" class="py-2 px-4 cursor-pointer" @click="changeTab(index)"
+          }" class="py-2 px-4 cursor-pointer relative underline-offset-4 overflow-hidden group" @click="changeTab(index)"
           >
+          <span class="absolute inset-x-0 bottom-0 h-0.5 group-hover:h-1.5 group-hover:animate-fade-up group-hover:animate-duration-[200ms] bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>
             {{ tab }}
         </div>
     </div>
@@ -15,63 +16,12 @@
     <!-- Content -->
     <div class="mt-10">
         <div v-show="activeTab === 0">
-            <!-- Tab 1 content -->
-            <div class="">
-                <ul class="flex flex-col animated-list">
-                    <li v-for="item in data" :key="item.id" class="py-3 group">
-                        <div :class="item.animateDelay" class="animate-fade-up">
-                            <div class="flex justify-between gap-6 items-center">
-                                <!-- :class="item.id === 1 ? '-z-10 text-secondary' : ''" -->
-                                <section class="flex flex-col md:flex-row gap-2 md:gap-9 col-reverse">
-                                    <h2 class="md:w-40 text-secondary text-sm shrink-0">
-                                        {{item.date}}
-                                    </h2>
-                                    <router-link :to="{
-                                    name: 'projectsDetails',
-                                    params: {
-                                        id: item.params,
-                                    }
-                                }">
-                                        <span class="font-medium leading-tight hover:animate-pulse">
-                                            {{ item.subject }}
-                                        </span>
-                                    </router-link>
-                                </section>
-                            </div>
-                        </div>
-
-                    </li>
-                </ul>
-            </div>
+            <!-- Developement Content -->
+            <TabDev :data="data"/> 
         </div>
         <div v-show="activeTab === 1">
-            <!-- Tab 2 content -->
-            <div class="">
-                <ul class="flex flex-col animated-list">
-                    <li v-for="itemDesign in design" :key="itemDesign.id" class="py-3 group">
-                        <div :class="itemDesign.animateDelay" class="animate-fade-up">
-                            <div class="flex justify-between gap-6 items-center">
-                                <!-- :class="item.id === 1 ? '-z-10 text-secondary' : ''" -->
-                                <section class="flex flex-col md:flex-row gap-2 md:gap-9 col-reverse">
-                                    <h2 class="md:w-40 text-secondary text-sm shrink-0">
-                                        {{itemDesign.date}}
-                                    </h2>
-                                    <router-link :to="{
-                                    name: 'projectsDetails',
-                                    params: {
-                                        id: itemDesign.params,
-                                    }
-                                }">
-                                        <span class="font-medium leading-tight hover:animate-pulse">
-                                            {{ itemDesign.subject }}
-                                        </span>
-                                    </router-link>
-                                </section>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div> 
+            <!-- UI/UX Design -->
+            <TabDesign :design="design" />
         </div>
     </div>
 </div>
@@ -81,6 +31,8 @@
 import { ref } from 'vue';
 import projects from '../data/projects.json';
 import { useRouter } from 'vue-router'
+import TabDev from './components/Project/TabContent/TabDev.vue'
+import TabDesign from './components/Project/TabContent/TabDesign.vue'
 
 const activeTab = ref(0);
 const tabs = ref(['Application Development', 'UI/UX Design']);
