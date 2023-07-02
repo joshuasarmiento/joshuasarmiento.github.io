@@ -1,18 +1,17 @@
 <template>
-<div>
+<section>
     <div class="text-primary text-sm flex flex-col md:flex-row animate-fade">
         <div v-for="(tab, index) in tabs" :key="index" :class="{
-            'mr-2 md:rounded-md border md:border-x w-full md:w-fit border-neutral-200 dark:border-neutral-900': activeTab === index,
-            'mr-2 border-neutral-200 dark:border-neutral-900': activeTab !== index,
+            'mr-2 md:rounded-sm border md:border-x w-1/2 md:w-fit border-neutral-200 dark:border-neutral-900': activeTab === index,
+            'mr-2 border-neutral-200 dark:border-neutral-900 w-1/2 md:w-fit': activeTab !== index,
             '': index === 0,
             '': index === tabs.length - 1
-          }" class="btn-transition py-2 px-4 cursor-pointer relative underline-offset-4 overflow-hidden group" @click="changeTab(index)"
+          }" class="transition-all py-2 px-4 cursor-pointer relative underline-offset-4 overflow-hidden group" @click="activeTab = index;"
           >
           <span class="primary-gradient"></span>
           {{ tab }}
         </div>
     </div>
-
     <!-- Content -->
     <div class="mt-10">
         <div v-show="activeTab === 0">
@@ -28,7 +27,7 @@
             <TabOpenSource :openSouce="openSouce" />
         </div>
     </div>
-</div>
+</section>
 </template>
 
 <script setup>
@@ -56,13 +55,6 @@ router.beforeEach((to, from, next) => {
     }
     next();
 });
-
-const changeTab = (index) => {
-  activeTab.value = index;
-  sessionStorage.setItem
-  ('activeTab', index.toString()); 
-}
-
 </script>
 
 

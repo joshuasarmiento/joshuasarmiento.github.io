@@ -1,5 +1,5 @@
 <template>
-<ul class="flex flex-col md:flex-row gap-2 md:gap-6 text-secondary animate-fade-up animate-delay-[400ms]" style="--index:2">
+<ul class="flex flex-col md:flex-row gap-2 md:gap-6 text-secondary animate-fd-4" style="--index:2">
     <li class="">
         <a class="text-primary-link underline-offset-4 flex gap-2 items-center" target="_blank" href="mailto:sarmientojoshuaalvarez@gmail.com">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">

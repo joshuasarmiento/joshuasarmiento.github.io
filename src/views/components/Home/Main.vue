@@ -4,10 +4,10 @@
         <!-- Name & Subject -->
         <div class="">
             <h1 class="animate-fade-up text-3xl font-bold tracking-tight text-primary mb-2">{{  name  }}</h1>
-            <p class="text-secondary animate-fade-up animate-delay-[100ms]">{{  subject }}</p>
+            <p class="text-secondary animate-fd-1">{{  subject }}</p>
         </div>
-        <div class="animate-fade-up animate-delay-[200ms] flex flex-col md:flex-row gap-6 text-secondary md:items-center">
-            <img alt="avatar" loading="lazy" decoding="async" data-nimg="1" class="rounded-full w-24 h-24" :src="profilePic">
+        <div class="animate-fd-2 flex flex-col md:flex-row gap-6 text-secondary md:items-center">
+            <img alt="avatar" loading="lazy" decoding="async" data-nimg="1" class="rounded-full w-24 h-24" v-lazy="{ src: profilePic }">
             <ul class="space-y-2">
                 <li class="">
                     <a v-for="(link) in links" :key="link.id" class="text-secondary underline-offset-4 flex gap-3 items-center no-underline" target="_blank">
@@ -18,7 +18,7 @@
             </ul>
         </div>
         <!-- Description -->
-        <p class="text-primary max-w-md animate-fade-up animate-delay-[300ms]">
+        <p class="text-primary max-w-md animate-fd-3">
             {{ description }}
         </p>
         <!-- Links -->
@@ -30,10 +30,10 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, computed, onMounted } from "vue";
 import profilePic from '../../../assets/img/profilePic.jpg';
 import LinksSection from './Links.vue';
-import Charts from '../Project/Charts.vue'
+import Charts from './Charts.vue'
 
 const name = ref('Joshua Sarmiento');
 const subject = ref('I design and write code.');

@@ -21,4 +21,43 @@
     .component {
         @apply mb-16 scroll-smooth
     }
+    .animate-fd-1 {
+        @apply animate-fade-up animate-delay-[100ms]
+    }
+    .animate-fd-2 {
+        @apply animate-fade-up animate-delay-[200ms]
+    }
+    .animate-fd-3 {
+        @apply animate-fade-up animate-delay-[300ms]
+    }
+    .animate-fd-4 {
+        @apply animate-fade-up animate-delay-[400ms]
+    }
+    .animate-fd-5 {
+        @apply animate-fade-up animate-delay-[500ms]
+    }
+    .animate-fd-6 {
+        @apply animate-fade-up animate-delay-[600ms]
+    }
+    .animate-fd-7 {
+        @apply animate-fade-up animate-delay-[700ms]
+    }
+    .animate-fd-8 {
+        @apply animate-fade-up animate-delay-[800ms]
+    }
+    .animate-fd-9 {
+        @apply animate-fade-up animate-delay-[900ms]
+    }
+    .animate-fd-10 {
+        @apply animate-fade-up animate-delay-[1000ms]
+    }
+    .animate-fd-11 {
+        @apply animate-fade-up animate-delay-[1100ms]
+    }
+    .animate-fd-12 {
+        @apply animate-fade-up animate-delay-[1200ms]
+    }
+    .animate-fd-13 {
+        @apply animate-fade-up animate-delay-[1300ms]
+    }
 }

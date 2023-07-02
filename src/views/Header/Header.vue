@@ -1,6 +1,6 @@
 <template>
-<header class="mx-auto max-w-[700px]">
-    <div class="p-4 max-w-full">
+<header class="">
+    <div class="p-4 mx-auto max-w-[700px]">
         <div class="flex items-center justify-between gap-4">
             <div class="flex lg:w-0 lg:flex-1">
                 <div class="animate-fade">
@@ -10,9 +10,9 @@
                 </div>
             </div>
             <nav aria-label="Global" class="hidden gap-4 lg:ml-16 text-sm sm:flex animate-fade">
-                <router-link class="btn-transition rounded-md text-primary-link px-3 py-2 text-[13px]" to="/about">About</router-link>
-                <router-link class="btn-transition rounded-md text-primary-link px-3 py-2 text-[13px]" to="/projects">Projects</router-link>
-                <router-link class="btn-transition rounded-md text-primary-link px-3 py-2 text-[13px]" to="/contact">Contact</router-link>
+                <router-link class="transition-all btn-transition rounded-md text-primary-link px-3 py-2 text-[13px]" to="/about">About</router-link>
+                <router-link class="transition-all btn-transition rounded-md text-primary-link px-3 py-2 text-[13px]" to="/projects">Projects</router-link>
+                <router-link class="transition-all btn-transition rounded-md text-primary-link px-3 py-2 text-[13px]" to="/contact">Contact</router-link>
             </nav>
             <!-- <div class="flex-1 items-center justify-end gap-4 sm:flex">
                 <div class="animate-fade">

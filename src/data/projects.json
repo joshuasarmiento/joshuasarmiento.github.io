@@ -2,6 +2,7 @@
     "projectDetails": [
         {
             "id": 1,
+            "isOngoing": true,
             "animateDelay": "animate-delay-[200ms]",
             "date": "July 2023",
             "link": "",
@@ -47,6 +48,7 @@
         },
         {
             "id": 2,
+            "isOngoing": false,
             "animateDelay": "animate-delay-[300ms]",
             "date": "December 2022",
             "link": "",
@@ -99,6 +101,7 @@
         },
         {
             "id": 3,
+            "isOngoing": false,
             "animateDelay": "animate-delay-[400ms]",
             "date": "August 2022",
             "link": "",
@@ -153,6 +156,7 @@
         },
         {
             "id": 4,
+            "isOngoing": false,
             "animateDelay": "animate-delay-[500ms]",
             "date": "Jan 2022 - Jun 2022",
             "link": "",
@@ -225,6 +229,7 @@
         },
         {
             "id": 5,
+            "isOngoing": false,
             "animateDelay": "animate-delay-[600ms]",
             "date": "Jun 2021 - Dec 2021",
             "link": "",
@@ -281,6 +286,7 @@
     "UIUXdesign": [
         {
             "id": 1,
+            "isOngoing": false,
             "animateDelay": "animate-delay-[100ms]",
             "date": "February 2021",
             "params": "The-sexy-pg-project",
@@ -298,6 +304,7 @@
         },
         {
             "id": 2,
+            "isOngoing": false,
             "animateDelay": "animate-delay-[200ms]",
             "date": "January 2021",
             "params": "AGRICOM-Venture-Incorporated",
@@ -317,6 +324,7 @@
     "OpenSource": [
         {
             "id": 1,
+            "isOngoing": false,
             "animateDelay": "animate-delay-[100ms]",
             "date": "July 2023",
             "params": "online-portfolio", 
@@ -325,6 +333,7 @@
         },
         {
             "id": 2,
+            "isOngoing": false,
             "animateDelay": "animate-delay-[200ms]",
             "date": "June 2023",
             "params": "Open-AI-Starter", 
@@ -333,6 +342,7 @@
         },
         {
             "id": 3,
+            "isOngoing": false,
             "animateDelay": "animate-delay-[300ms]",
             "date": "July 2022",
             "params": "Recipe-API", 
