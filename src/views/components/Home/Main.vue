@@ -3,7 +3,7 @@
     <div class="flex flex-col gap-8 animate-in mt-4 md:mt-16 p-4">
         <!-- Name & Subject -->
         <div class="">
-            <h1 class="animate-fade-up text-2xl font-bold tracking-tight text-primary mb-2">{{  name  }}</h1>
+            <h1 class="animate-fade-up text-3xl font-bold tracking-tight text-primary mb-2">{{  name  }}</h1>
             <p class="text-secondary animate-fade-up animate-delay-[100ms]">{{  subject }}</p>
         </div>
         <div class="animate-fade-up animate-delay-[200ms] flex flex-col md:flex-row gap-6 text-secondary md:items-center">

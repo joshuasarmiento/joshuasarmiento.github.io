@@ -4,17 +4,19 @@
             "id": 1,
             "position": "Frontend Developer",
             "companyName": "Bria Homes Inc.",
-            "companyLogo": "BriaLogo",
+            "companyLogo": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/BriaLogo.png",
             "startDate": "Aug 2022",
-            "endDate": "Present "
+            "endDate": "Present",
+            "link": "https://www.bria.com.ph/"
         },
         {
             "id": 2,
             "position": "Software Developer",
             "companyName": "CHED Regional Office V.",
-            "companyLogo": "ChedLogo",
+            "companyLogo": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/ched-logo.png",
             "startDate": "Jan 2022",
-            "endDate": "Jun 2022"
+            "endDate": "Jun 2022",
+            "link": "https://chedro5stufap.com/"
         }
     ]
 }

@@ -8,9 +8,9 @@
         </div>
         <ul class="animate-fade-up animate-delay-[700ms] flex flex-col gap-8 animated-list text-sm">
             <li class="">
-                <a v-for="item in jobData" :key="item" class="relative overflow-hidden underline-offset-4 flex flex-col md:flex-row justify-between w-full px-3 py-4 -mx-3 -my-2 hover:animate-pulse" target="_blank" :href="item.link">
+                <a v-for="item in jobData" :key="item" class="group relative overflow-hidden underline-offset-4 flex flex-col md:flex-row justify-between w-full px-3 py-4 -mx-3 -my-2" target="_blank" :href="item.link">
                     <div class="flex items-center gap-4">
-                        <img alt="Hines" loading="lazy" decoding="async" data-nimg="1" class="rounded-full opacity-75" style="color: transparent;" :src="item.companyLogo" width="48" height="48">
+                        <img alt="Hines" loading="lazy" decoding="async" data-nimg="1" class="group-hover:animate-wiggle rounded-full opacity-75" style="color: transparent;" :src="item.companyLogo" width="48" height="48">
                         <div class="flex flex-col gap-px ">
                             <p class="external-arrow">{{ item.position }}</p>
                             <p class="text-secondary">{{ item.companyName }}</p>
@@ -28,30 +28,10 @@
 import {
     ref
 } from 'vue';
-import BriaLogo from '../../../assets/img/BriaLogo.png'
-import ChedLogo from '../../../assets/img/ched-logo.png'
+import jobs from '../../../data/job.json'
 
 const title = ref('Work Experience');
 const subject = ref('1+ year of professional development experience.');
 const description = ref('I am eager to learn new technologies and contribute to the development of innovative applications.');
-
-const jobData = ref([{
-        id: 1,
-        position: 'Frontend Developer',
-        companyName: 'Bria Homes Inc.',
-        companyLogo: BriaLogo,
-        startDate: 'Aug 2022',
-        endDate: 'Present',
-        link: 'https://www.bria.com.ph/'
-    },
-    {
-        id: 2,
-        position: 'Software Developer',
-        companyName: 'CHED Regional Office V.',
-        companyLogo: ChedLogo,
-        startDate: 'Jan 2022',
-        endDate: 'Jun 2022',
-        link: 'https://chedro5stufap.com/'
-    }
-])
+const jobData = ref(jobs.JobDetails);
 </script>

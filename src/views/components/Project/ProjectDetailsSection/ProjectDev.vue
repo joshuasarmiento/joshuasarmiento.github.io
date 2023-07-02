@@ -69,7 +69,7 @@
 
                 <div class="divider py-8"></div>
                 <h2 class="text-xl font-bold tracking-wide mb-4">Other Contributors</h2>
-                <div v-if="data.contributors" class="animate-fade-up animate-delay-[1000ms] border border-gray-500 rounded-md p-4 w-[calc(100%+48px)] -ml-6 lg:w-[calc(100%+128px)] lg:-ml-16 ">
+                <div v-if="data.contributors" class="animate-fade-up animate-delay-[1000ms] border border-neutral-500 rounded-md p-4 w-[calc(100%+48px)] -ml-6 lg:w-[calc(100%+128px)] lg:-ml-16 ">
                     <div v-for="contri in project.contributors" :key="contri" class="flex justify-between items-center py-2 gap-4">
                         <div class="flex items-center gap-4">
                             <img :alt="contri.name" :src="contri.image" loading="lazy" class="h-16 w-16 rounded-full object-cover" />

@@ -10,24 +10,24 @@
                 </div>
             </div>
             <nav aria-label="Global" class="hidden gap-4 lg:ml-16 text-sm sm:flex animate-fade">
-                <router-link class="text-primary-link px-3 py-2 text-[13px]" to="/about">About</router-link>
-                <router-link class="text-primary-link px-3 py-2 text-[13px]" to="/projects">Projects</router-link>
-                <router-link class="text-primary-link px-3 py-2 text-[13px]" to="/contact">Contact</router-link>
+                <router-link class="btn-transition rounded-md text-primary-link px-3 py-2 text-[13px]" to="/about">About</router-link>
+                <router-link class="btn-transition rounded-md text-primary-link px-3 py-2 text-[13px]" to="/projects">Projects</router-link>
+                <router-link class="btn-transition rounded-md text-primary-link px-3 py-2 text-[13px]" to="/contact">Contact</router-link>
             </nav>
             <!-- <div class="flex-1 items-center justify-end gap-4 sm:flex">
                 <div class="animate-fade">
                     <a class="cursor-pointer" @click="toggleDark(); toggleTheme();">
-                        <img :src="icon" class="w-5 h-5 text-gray-100" :alt="iconAlt" />
+                        <img :src="icon" class="w-5 h-5 text-neutral-100" :alt="iconAlt" />
                     </a>
                 </div>
             </div> -->
             <div class="flex-auto"></div> <!-- Add this line -->
             <label for="AcceptConditions" class=" relative h-6 w-10 cursor-pointer animate-fade">
                 <input @click="!toggleDark(); toggleTheme();" type="checkbox" id="AcceptConditions" class="peer sr-only [&:checked_+_span_svg[data-checked-icon]]:block [&:checked_+_span_svg[data-unchecked-icon]]:hidden" />
-                <span class="absolute inset-y-0 start-0 z-10 m-1 inline-flex h-4 w-4 items-center justify-center rounded-full bg-black dark:bg-white text-gray-400 transition-all peer-checked:start-4 peer-checked:text-gray-600">
-                    <img :src="icon" class="w-5 h-5 text-gray-100" :alt="iconAlt" />
+                <span class="absolute inset-y-0 start-0 z-10 m-1 inline-flex h-4 w-4 items-center justify-center rounded-full bg-black dark:bg-white text-neutral-400 transition-all peer-checked:start-4 peer-checked:text-neutral-600">
+                    <img :src="icon" class="w-5 h-5 text-neutral-100" :alt="iconAlt" />
                 </span>
-                <span class="absolute inset-0 rounded-full transition peer-checked:bg-transparent border dark:border-gray-500"></span>
+                <span class="absolute inset-0 rounded-full transition peer-checked:bg-transparent border dark:border-neutral-500"></span>
             </label>
             <div class="block sm:hidden animate-fade">
                 <button class="p-2 text-slate-600 dark:text-slate-300" type="button" @click="toggleMentFunc();">
@@ -52,18 +52,18 @@
                 </button>
             </div>
             <div v-if="toggleMenu === true" :class="toggleMenu ? 'animate-fade-left animate-duration-[400ms]' : 'animate-fade-right animate-duration-[400ms]' " class="relative z-20">
-                <div class="absolute end-0 z-10 mt-8 w-56 mr-4 divide-y divide-gray-100 border rounded-md border-gray-100 bg-white dark:bg-[#000000f2] shadow-lg" role="menu">
+                <div class="absolute end-0 z-10 mt-8 w-56 mr-4 divide-y divide-neutral-100 border rounded-md border-neutral-100 bg-white dark:bg-[#000000f2] shadow-lg" role="menu">
                     <div class="p-2">
-                        <router-link to="/" class="block rounded-md px-4 py-2 text-sm hover:bg-gray-200 text-primary-link" role="menuitem">
+                        <router-link to="/" class="block rounded-md px-4 py-2 text-sm hover:bg-neutral-200 text-primary-link" role="menuitem">
                             Home
                         </router-link>
-                        <router-link to="/about" class="block rounded-md px-4 py-2 text-sm hover:bg-gray-200 text-primary-link" role="menuitem">
+                        <router-link to="/about" class="block rounded-md px-4 py-2 text-sm hover:bg-neutral-200 text-primary-link" role="menuitem">
                             About
                         </router-link>
-                        <router-link to="/projects" class="block rounded-md px-4 py-2 text-sm hover:bg-gray-200 text-primary-link" role="menuitem">
+                        <router-link to="/projects" class="block rounded-md px-4 py-2 text-sm hover:bg-neutral-200 text-primary-link" role="menuitem">
                             Projects
                         </router-link>
-                        <router-link to="/contact" class="block rounded-md px-4 py-2 text-sm hover:bg-gray-200 text-primary-link" role="menuitem">
+                        <router-link to="/contact" class="block rounded-md px-4 py-2 text-sm hover:bg-neutral-200 text-primary-link" role="menuitem">
                             Contact
                         </router-link>
                     </div>
@@ -130,12 +130,12 @@ router.beforeEach((to, from, next) => {
 
 <style scoped>
 a.router-link-exact-active {
-    @apply bg-gray-200;
-    @apply border-gray-200;
-    @apply text-gray-800;
-    @apply dark:text-gray-200;
+    @apply bg-neutral-200;
+    @apply border-neutral-200;
+    @apply text-neutral-800;
+    @apply dark:text-neutral-200;
     @apply dark:bg-neutral-800;
-    @apply dark:hover:text-gray-300;
+    @apply dark:hover:text-neutral-300;
     @apply rounded-md;
 }
 </style>

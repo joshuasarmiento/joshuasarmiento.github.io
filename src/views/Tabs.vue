@@ -2,13 +2,13 @@
 <div>
     <div class="text-primary text-sm flex flex-col md:flex-row animate-fade">
         <div v-for="(tab, index) in tabs" :key="index" :class="{
-            'mr-2 md:rounded-md border md:border-x w-full md:w-fit border-neutral-200 dark:border-neutral-900 ': activeTab === index,
+            'mr-2 md:rounded-md border md:border-x w-full md:w-fit border-neutral-200 dark:border-neutral-900': activeTab === index,
             'mr-2 border-neutral-200 dark:border-neutral-900': activeTab !== index,
             '': index === 0,
             '': index === tabs.length - 1
-          }" class="py-2 px-4 cursor-pointer relative underline-offset-4 overflow-hidden group" @click="changeTab(index)"
+          }" class="btn-transition py-2 px-4 cursor-pointer relative underline-offset-4 overflow-hidden group" @click="changeTab(index)"
           >
-          <span class="absolute inset-x-0 bottom-0 h-0.5 group-hover:h-1.5 group-hover:animate-fade-up group-hover:animate-duration-[200ms] bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>
+          <span class="primary-gradient"></span>
           {{ tab }}
         </div>
     </div>
@@ -65,6 +65,4 @@ const changeTab = (index) => {
 
 </script>
 
-<style>
-/* Add custom styles here */
-</style>
+

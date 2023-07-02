@@ -6,7 +6,7 @@ import Header from './views/Header/Header.vue';
 <template>
   <Header></Header>
   <router-view v-slot="{ Component }" >
-      <component class="mb-16 scroll-smooth" :is="Component" />
+      <component class="component" :is="Component" />
   </router-view>
 </template>
 
