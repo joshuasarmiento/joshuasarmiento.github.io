@@ -49,7 +49,6 @@
 
                 <div v-if="project.poster" class="h-10"></div>
                 <div v-if="project.poster" class="animate-fd-10">
-                    <h2 class="text-xl font-bold tracking-wide mb-4">Poster</h2>
                     <img  v-lazy="{ src: project.poster }" alt="Poster" class="rounded-lg">
                 </div>
 

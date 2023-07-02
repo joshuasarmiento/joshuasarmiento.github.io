@@ -52,18 +52,18 @@
                 </button>
             </div>
             <div v-if="toggleMenu === true" :class="toggleMenu ? 'animate-fade-left animate-duration-[400ms]' : 'animate-fade-right animate-duration-[400ms]' " class="relative z-20">
-                <div class="absolute end-0 z-10 mt-8 w-56 mr-4 divide-y divide-neutral-100 border rounded-md border-neutral-100 bg-white dark:bg-[#000000f2] shadow-lg" role="menu">
+                <div class="absolute end-0 z-10 mt-8 w-56 mr-4 divide-y divide-neutral-100 border rounded-md border-neutral-300 dark:border-neutral-100 bg-white dark:bg-neutral-950 shadow-lg transition-all" role="menu">
                     <div class="p-2">
-                        <router-link to="/" class="block rounded-md px-4 py-2 text-sm hover:bg-neutral-200 text-primary-link" role="menuitem">
+                        <router-link to="/" class="transition-all btn-transition block rounded-md px-4 py-2 text-sm hover:bg-neutral-800 hover:dark:bg-neutral-200 text-primary-link" role="menuitem">
                             Home
                         </router-link>
-                        <router-link to="/about" class="block rounded-md px-4 py-2 text-sm hover:bg-neutral-200 text-primary-link" role="menuitem">
+                        <router-link to="/about" class="transition-all btn-transition block rounded-md px-4 py-2 text-sm hover:bg-neutral-800 hover:dark:bg-neutral-200 text-primary-link" role="menuitem">
                             About
                         </router-link>
-                        <router-link to="/projects" class="block rounded-md px-4 py-2 text-sm hover:bg-neutral-200 text-primary-link" role="menuitem">
+                        <router-link to="/projects" class="transition-all btn-transition block rounded-md px-4 py-2 text-sm hover:bg-neutral-800 hover:dark:bg-neutral-200 text-primary-link" role="menuitem">
                             Projects
                         </router-link>
-                        <router-link to="/contact" class="block rounded-md px-4 py-2 text-sm hover:bg-neutral-200 text-primary-link" role="menuitem">
+                        <router-link to="/contact" class="transition-all btn-transition block rounded-md px-4 py-2 text-sm hover:bg-neutral-800 hover:dark:bg-neutral-200 text-primary-link" role="menuitem">
                             Contact
                         </router-link>
                     </div>
