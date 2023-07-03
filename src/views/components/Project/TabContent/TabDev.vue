@@ -16,7 +16,7 @@
                                     }
                                 }">
                             <span class="font-medium leading-tight hover:animate-pulse">
-                                {{ item.subject }}
+                               <span>{{ item.subject }}</span>
                             </span>
                         </router-link>
                         <span v-if="item.isOngoing" class="inline-flex items-center justify-center rounded-full bg-amber-100 px-2.5 py-0.5 text-amber-700">

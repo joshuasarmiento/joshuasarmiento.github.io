@@ -4,7 +4,7 @@
         <div class="flex flex-col gap-8">
             <div>
                 <h1 class="animate-fade-up text-2xl font-bold tracking-tight mb-2">{{ title }}</h1>
-                <p class="text-secondary animate-fade-up animate-delay-[100ms] text-sm">{{ description }}
+                <p class=" text-secondary animate-fade-up animate-delay-[100ms] text-sm">{{ description }}
                     <a href="mailto:sarmientojoshuaalvarez@gmail.com" class="underline"> contact me.</a>
                 </p>
             </div>

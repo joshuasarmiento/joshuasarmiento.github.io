@@ -9,6 +9,12 @@
             "params": "Bria-Payment-Channel",
             "subject": "Bria Payment Channel",
             "embedLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FlxtEbbIJDKwanHOWqh754L%2FPayment-Channel-Base-Design%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DQNDqAsQoEyuSPpKq-1",
+            "icons": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+            ],
             "img": [
                 "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/pmHomepage.png",
                 "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/pmDashboard.png",
@@ -22,13 +28,13 @@
                 "https://wakatime.com/badge/user/c4d7cc2e-ab09-411c-b19e-6ecc97663a9a/project/4fd5ceeb-d650-426f-91ac-5a9ba8c3166f.svg"
             ],
             "tools": [
-                "Vite",
                 "VueJS",
                 "MySQL",
-                "Google Analytics",
-                "Google Optimize",
                 "NodeJS",
-                "Tailwind CSS"
+                "Tailwind CSS",
+                "Vite",
+                "Google Analytics",
+                "Google Optimize"
             ],
             "challenge": [
                 "The main challenge in this role is to transform website designs into a fully functional payment channel. This involves writing clean, efficient, and well-structured code that ensures seamless performance across various devices and platforms. The goal is to create a user-friendly and reliable payment experience for customers."
@@ -54,6 +60,15 @@
             "link": "",
             "params": "Asterra-Condominium-Website",
             "subject": "Asterra Condominium Website",
+            "icons": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+            ],
             "img": [
                 "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/asterraHomepage.png",
                 "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/asterraAboutPage.png",
@@ -66,14 +81,14 @@
             "tools": [
                 "Wordpress",
                 "MySQL",
-                "Google Analytics",
-                "Google Optimize",
                 "Advanced PHP",
                 "Bootstrap",
-                "Yoast SEO",
                 "Javascript",
+                "HTML",
                 "CSS",
-                "HTML"
+                "Google Analytics",
+                "Google Optimize",
+                "Rank Math SEO"
             ],
             "challenge": [
                 "Responsible for bringing website designs to life by writing clean, efficient, and well-structured code that runs smoothly on a variety of devices and platforms"
@@ -107,6 +122,15 @@
             "link": "",
             "params": "Bria-Homes-Website",
             "subject": "Bria Homes Website",
+            "icons": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+            ],
             "img": [
                 "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/briaHomepage.png",
                 "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/briaAboutPage.png",
@@ -119,14 +143,14 @@
             "tools": [
                 "Wordpress",
                 "MySQL",
-                "Google Analytics",
-                "Google Optimize",
                 "Advanced PHP",
                 "Bootstrap",
-                "Yoast SEO",
                 "Javascript",
+                "HTML",
                 "CSS",
-                "HTML"
+                "Google Analytics",
+                "Google Optimize",
+                "Yoast SEO"
             ],
             "challenge": [
                 "Transforming website designs into fully functional websites. This involves writing clean, efficient, and well-structured code that runs smoothly on various devices and platforms. I strive to ensure that the websites I develop are visually appealing, user-friendly, and deliver a seamless experience to visitors.",
@@ -163,6 +187,14 @@
             "params": "CHED-Application-of-program-management-system",
             "subject": "CHED Application of program management system",
             "embedLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FX68ffeqr5Rj0pddzuJaLRA%2FCHED-Application-Management-System%3Ftype%3Ddesign%26node-id%3D113%253A4%26mode%3Ddesign%26t%3DTM2Kt8ayJYvdJDYx-1",
+            "icons": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+            ],
             "img": [
                 "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/CHEDDashboard.png",
                 "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/CHEDReports.png"
@@ -177,7 +209,6 @@
                 "Vue JS",
                 "NodeJS",
                 "Visual Studio Code",
-                "Figma",
                 "Figma",
                 "Tailwind CSS",
                 "Parse Server/Dashboard",
@@ -236,6 +267,13 @@
             "params": "Booking-Mobile-Application",
             "subject": "Booking Mobile Application",
             "embedLink": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fh3SJxOupSDTlNpcQhYQxNc%2FBLook%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DbdwynpI7tuSLGXke-1",
+            "icons": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+            ],
             "img": [
                 "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/blookApp.png",
                 "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/blookBanner.png"
@@ -300,6 +338,9 @@
                 "For mobile users, a hamburger button provides access to additional screens such as login, sign up, and about us. The website user flow follows a similar structure, without the hamburger button. Both versions offer a consistent experience starting from the home screen, progressing through product categories, product details, cart view, and the checkout screen. The wireframes and decision nodes contribute to an intuitive journey.",
                 "Embracing the benefits of e-commerce, the system enables customers to compare products across websites and offers hassle-free returns. To overcome any existing challenges, I utilize innovative technologies and solutions.",
                 "In today's digital landscape, online shopping has become increasingly popular. Implementing a robust and efficient mobile marketing strategy is no longer optional—it's essential. With the Sexy Pig Mobile Project, my goal is to reach customers where they are: on their mobile devices."
+            ],
+            "icons": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
             ]
         },
         {
@@ -318,6 +359,9 @@
                 "As I explored potential business ideas, I noticed a lack of eCommerce businesses targeting the agriculture industry, which accounts for approximately 40% of the country's average GDP. Despite advancements in modernizing the sector, there are limited online platforms catering to this market. To address this gap, I plan to establish a centralized marketplace that specifically targets individuals in the agricultural sector, facilitating their entry into eTailing.",
                 "However, I don't want to limit my target audience to just the agricultural sector. I also aim to tap into the growing trend of 'Plantitos and Plantitas' which refers to people who enjoy gardening and cultivating plants. By including this demographic, I can expand my market to a wider audience and ensure the profitability and flexibility of my venture.",
                 "Overall, my goal is to leverage the booming eCommerce industry by introducing new products and catering to underserved sectors like agriculture. Through my centralized marketplace, I aim to provide a platform for farmers and individuals interested in gardening to access and sell their products online, ultimately benefiting both the industry and the broader masses."
+            ],
+            "icons": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
             ]
         }
     ],
@@ -327,27 +371,49 @@
             "isOngoing": false,
             "animateDelay": "animate-delay-[100ms]",
             "date": "July 2023",
-            "params": "online-portfolio", 
-            "subject": "Online Portfolio",
-            "link": "https://github.com/joshuasarmiento/joshuasarmiento.github.io"
+            "params": "react-blog-starter", 
+            "subject": "React Blog Starter",
+            "link": "https://github.com/joshuasarmiento/react-blog-starter",
+            "icons": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            ]
         },
         {
             "id": 2,
             "isOngoing": false,
             "animateDelay": "animate-delay-[200ms]",
             "date": "June 2023",
-            "params": "Open-AI-Starter", 
-            "subject": "Open AI Starter",
-            "link": "https://github.com/joshuasarmiento/open-ai-starter"
+            "params": "online-portfolio", 
+            "subject": "Online Portfolio",
+            "link": "https://github.com/joshuasarmiento/joshuasarmiento.github.io",
+            "icons": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+            ]
         },
         {
             "id": 3,
             "isOngoing": false,
             "animateDelay": "animate-delay-[300ms]",
+            "date": "June 2023",
+            "params": "Open-AI-Starter", 
+            "subject": "Open AI Starter",
+            "link": "https://github.com/joshuasarmiento/open-ai-starter",
+            "icons": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+            ]
+        },
+        {
+            "id": 4,
+            "isOngoing": false,
+            "animateDelay": "animate-delay-[400ms]",
             "date": "July 2022",
             "params": "Recipe-API", 
             "subject": "Recipe API",
-            "link": "https://github.com/joshuasarmiento/RecipeAPI"
+            "link": "https://github.com/joshuasarmiento/RecipeAPI",
+            "icons": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+            ]
         }
     ]
 }

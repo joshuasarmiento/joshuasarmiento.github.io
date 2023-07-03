@@ -31,6 +31,10 @@
                 <div class="h-10"></div>
                 <div class="animate-fd-7">
                     <h2 class="text-xl font-bold tracking-wide  mb-4">Tools and Technologies Used</h2>
+                    <div v-for="icon in project.icons" :key="icon" class="inline-flex mr-4">
+                        <img :src="icon" alt="Programming Languages" class="w-8 h-8"/>
+                    </div>
+                    <br>
                     <ul v-for="tool in project.tools" :key="tool" class="inline-flex">
                         <li class="pr-2">{{ tool }} |</li>
                     </ul>

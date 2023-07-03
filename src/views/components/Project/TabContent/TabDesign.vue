@@ -15,8 +15,11 @@
                                         id: itemDesign.params,
                                     }
                                 }">
-                            <span class="font-medium leading-tight hover:animate-pulse">
-                                {{ itemDesign.subject }}
+                            <span class="font-medium leading-tight hover:animate-pulse flex space-x-4">
+                                <span>{{ itemDesign.subject }}</span>
+                                <div v-for="icon in itemDesign.icons" :key="icon" class="justify-end">
+                                    <img :src="icon" alt="Programming Languages" class="h-4 w-4">
+                                </div>
                             </span>
                         </router-link>
                         <span v-if="itemDesign.isOngoing" class="inline-flex items-center justify-center rounded-full bg-amber-100 px-2.5 py-0.5 text-amber-700">
