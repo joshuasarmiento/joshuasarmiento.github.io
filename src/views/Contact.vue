@@ -3,12 +3,12 @@
     <div class="text-primary flex flex-col gap-16 md:gap-24 p-4">
         <div class="flex flex-col gap-8 animate-in">
             <img alt="avatar" loading="lazy" decoding="async" data-nimg="1" class="animate-fade-up rounded-full bg-secondary mx-auto animate-in" style="color: transparent; --index: 1;" :src="profilePic" :style="imgStyle" width="100" height="100">
-            <div class="animate-fade-up animate-delay-[100ms] space-y-1 animate-in" style="--index: 2;">
+            <div class="animate-fade-up animate-delay-[100ms] space-y-1 animate-in">
                 <h1 class="text-2xl font-bold tracking-tight text-center">Joshua Sarmiento</h1>
                 <p class="max-w-sm text-secondary text-sm mx-auto text-center">Frontend Developer</p>
             </div>
         </div>
-        <ul class="flex-grow grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-3" style="--index: 3;">
+        <ul class="flex-grow grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-3">
             <li v-for="data in connectLinks" :key="data.id" class="col-span-1">
                 <a :class="data.animateDelay" class="animate-fade-up text-sm relative underline-offset-4 overflow-hidden no-underline w-full border border-neutral-200 dark:border-neutral-900 rounded-lg p-4 border-primary inline-grid group" target="_blank" :href="data.link">
                     <span class="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 group-hover:h-2 group-hover:animate-fade-up group-hover:animate-duration-[200ms]"></span>
@@ -107,6 +107,16 @@ const connectLinks = ref([{
                             </svg>`,
         animateDelay: 'animate-delay-[600ms]',
         link: 'https://www.instagram.com/__premsjosh/',
+    },
+    {
+        id: 5,
+        text: 'Facebook',
+        svg: `<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m420 36h-328a56 56 0 0 0 -56 56v328a56 56 0 0 0 56 56h160.67v-183.076h-36.615v-73.23h36.312v-33.094c0-29.952 14.268-76.746 77.059-76.746l56.565.227v62.741h-41.078c-6.679 0-16.183 3.326-16.183 17.592v29.285h58.195l-6.68 73.23h-54.345v183.071h94.1a56 56 0 0 0 56-56v-328a56 56 0 0 0 -56-56z"/>
+                </svg>
+                `,
+        animateDelay: 'animate-delay-[700ms]',
+        link: 'https://www.facebook.com/ajosshi22/',
     },
 ])
 
