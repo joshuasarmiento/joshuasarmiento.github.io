@@ -371,6 +371,18 @@
             "isOngoing": false,
             "animateDelay": "animate-delay-[100ms]",
             "date": "July 2023",
+            "params": "svelte-poll-starter", 
+            "subject": "Svelte Poll App Starter",
+            "link": "https://github.com/joshuasarmiento/svelte-poll-starter",
+            "icons": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
+            ]
+        },
+        {
+            "id": 2,
+            "isOngoing": false,
+            "animateDelay": "animate-delay-[200ms]",
+            "date": "July 2023",
             "params": "react-blog-starter", 
             "subject": "React Blog Starter",
             "link": "https://github.com/joshuasarmiento/react-blog-starter",
@@ -379,9 +391,9 @@
             ]
         },
         {
-            "id": 2,
+            "id": 3,
             "isOngoing": false,
-            "animateDelay": "animate-delay-[200ms]",
+            "animateDelay": "animate-delay-[300ms]",
             "date": "June 2023",
             "params": "online-portfolio", 
             "subject": "Online Portfolio",
@@ -391,9 +403,9 @@
             ]
         },
         {
-            "id": 3,
+            "id": 4,
             "isOngoing": false,
-            "animateDelay": "animate-delay-[300ms]",
+            "animateDelay": "animate-delay-[400ms]",
             "date": "June 2023",
             "params": "Open-AI-Starter", 
             "subject": "Open AI Starter",
@@ -403,9 +415,21 @@
             ]
         },
         {
-            "id": 4,
+            "id": 5,
             "isOngoing": false,
-            "animateDelay": "animate-delay-[400ms]",
+            "animateDelay": "animate-delay-[500ms]",
+            "date": "October 2022",
+            "params": "Slim-practice", 
+            "subject": "Slim Practice",
+            "link": "https://github.com/joshuasarmiento/slim-practice",
+            "icons": [
+                "http://2.bp.blogspot.com/-Mo2GhAch9hA/Va6M-K7FfNI/AAAAAAAAAkM/0DWYQgYmKt8/s200/tumblr_nrpp228JGb1r88u00o1_500.png"
+            ]
+        },
+        {
+            "id": 6,
+            "isOngoing": false,
+            "animateDelay": "animate-delay-[600ms]",
             "date": "July 2022",
             "params": "Recipe-API", 
             "subject": "Recipe API",

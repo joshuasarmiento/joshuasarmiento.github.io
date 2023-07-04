@@ -18,7 +18,7 @@
                             </span>
                             <span>{{ itemOS.subject }}</span>
                             <div v-for="icon in itemOS.icons" :key="icon" class="justify-end">
-                                <img :src="icon" alt="Programming Languages" class="h-4 w-4">
+                                <img :src="icon" alt="Programming Languages" class="h-4 w-full">
                             </div>
                         </a>
 
