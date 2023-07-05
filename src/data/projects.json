@@ -13,8 +13,9 @@
                 "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
                 "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
                 "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-            ],
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+            ],  
             "img": [
                 "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/pmHomepage.png",
                 "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/pmDashboard.png",
@@ -31,6 +32,7 @@
                 "VueJS",
                 "MySQL",
                 "NodeJS",
+                "Jest",
                 "Tailwind CSS",
                 "Vite",
                 "Google Analytics",
