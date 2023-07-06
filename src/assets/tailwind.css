@@ -9,6 +9,9 @@
     .text-secondary {
         @apply text-neutral-600 dark:text-neutral-500
     }
+    .text-secondary-content {
+        @apply text-neutral-600 dark:text-[#A0A0A0]
+    }
     .text-primary-link {
         @apply text-neutral-600 hover:text-neutral-400 dark:text-neutral-400 dark:hover:text-neutral-500
     }

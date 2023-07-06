@@ -3,9 +3,9 @@
     <div class="flex flex-col gap-20">
         <article>
             <div class="flex flex-col gap-3">
-                <p class="text-secondary animate-fade-up"><time datetime="2023-03-05">{{ dataUIUX.date }}</time></p>
+                <p class="text-secondary-content animate-fade-up"><time datetime="2023-03-05">{{ dataUIUX.date }}</time></p>
                 <h1 class="text-primary animate-fd-1 text-3xl font-bold tracking-tight leading-tight">{{ dataUIUX.subject }}</h1>
-                <p class="text-xl text-secondary animate-fd-2 ">{{ dataUIUX.titleDesc }}</p>
+                <p class="text-xl text-secondary-content animate-fd-2 ">{{ dataUIUX.titleDesc }}</p>
             </div>
             <div class="h-8"></div>
             <div class="animate-fd-3">
@@ -15,13 +15,13 @@
             <div class="h-16"></div>
             <div class="animate-fd-4">
                 <h2 class="text-xl font-bold tracking-wide mb-4">Objective</h2>
-                <p>{{ dataUIUX.objective }}</p>
+                <p class="text-seondary-content">{{ dataUIUX.objective }}</p>
             </div>
 
             <div class="h-10"></div>
             <div class="animate-fd-5">
                 <h2 class="text-xl font-bold tracking-wide mb-4">Challenge</h2>
-                <p v-for="chal in projectUIUX.challenge" :key="chal" class="pb-4">{{ chal }}</p>
+                <p v-for="chal in projectUIUX.challenge" :key="chal" class="pb-4 text-secondary-content">{{ chal }}</p>
             </div>
 
             <div class="h-8"></div>

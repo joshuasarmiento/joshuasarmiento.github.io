@@ -4,7 +4,7 @@
             <article>
                 <div class="flex flex-col gap-3">
                     <div class="flex space-x-4">
-                        <p class="text-secondary animate-fade-up"><time datetime="2023-03-05">{{ data.date }}</time></p>
+                        <p class="text-secondary-content animate-fade-up"><time datetime="2023-03-05">{{ data.date }}</time></p>
                         <span v-if="data.isOngoing" class="animate-fade-up inline-flex items-center justify-center rounded-full bg-amber-100 px-2.5 py-0.5 text-amber-700">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="-ms-1 me-1.5 h-4 w-4">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 9.75h4.875a2.625 2.625 0 010 5.25H12M8.25 9.75L10.5 7.5M8.25 9.75L10.5 12m9-7.243V21.75l-3.75-1.5-3.75 1.5-3.75-1.5-3.75 1.5V4.757c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0c1.1.128 1.907 1.077 1.907 2.185z" />
@@ -13,11 +13,11 @@
                         </span>
                     </div>
                     <h1 class="text-primary animate-fd-1 text-3xl font-bold tracking-tight leading-tight">{{ data.subject }}</h1>
-                    <p class="text-xl text-secondary animate-fd-2 ">{{ data.titleDesc }}</p>
+                    <p class="text-xl text-secondary-content animate-fd-2 ">{{ data.titleDesc }}</p>
                 </div>
                 <div v-if="project.badges != ''">
                     <div class="h-4"></div>
-                    <p class="text-secondary animate-fd-3">
+                    <p class="text-secondary-content animate-fd-3">
                         <time datetime="2023-03-05">Time spent in the project:</time>
                     </p>
                     <div class="flex space-x-4 mt-2 animate-fd-4">
@@ -33,7 +33,7 @@
                 <div class="h-16"></div>
                 <div class="animate-fd-6">
                     <h2 class="text-xl font-bold tracking-wide mb-4">Objective</h2>
-                    <p>{{ data.objective }}</p>
+                    <p class="text-secondary-content">{{ data.objective }}</p>
                 </div>
 
                 <div class="h-10"></div>
@@ -44,7 +44,7 @@
                     </div>
                     <br>
                     <ul v-for="tool in project.tools" :key="tool" class="inline-flex">
-                        <li class="pr-2">{{ tool }} |</li>
+                        <li class="pr-2 text-secondary-content">{{ tool }} |</li>
                     </ul>
                 </div>
 
@@ -56,7 +56,7 @@
                 <div class="h-10"></div>
                 <div class="animate-fd-9">
                     <h2 class="text-xl font-bold tracking-wide mb-4">Challenge</h2>
-                    <p v-for="chal in project.challenge" :key="chal" class="pb-4">{{ chal }}</p>
+                    <p v-for="chal in project.challenge" :key="chal" class="pb-4 text-secondary-content">{{ chal }}</p>
                 </div>
 
                 <div v-if="project.poster" class="h-10"></div>
