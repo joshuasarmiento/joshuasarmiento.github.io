@@ -1,6 +1,6 @@
 <template>
 <header class="">
-    <div class="p-2 mx-auto max-w-[700px]">
+    <div class="p-4 mx-auto max-w-[700px]">
         <div class="flex items-center justify-between gap-4">
             <div class="flex lg:w-0 lg:flex-1">
                 <div class="animate-fade">
