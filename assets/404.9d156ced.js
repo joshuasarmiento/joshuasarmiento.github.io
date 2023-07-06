@@ -1,1 +1,0 @@
-import{_ as e,o as t,c,b as o}from"./index.f139e339.js";const s={},n={class:"grid h-[80vh] text-secondary px-4 place-content-center"},a=o("h1",{class:"tracking-wide uppercase font-semibold animate-fd-1"},"404 | Not Found",-1),r=[a];function _(d,i){return t(),c("div",n,r)}const l=e(s,[["render",_]]);export{l as default};
