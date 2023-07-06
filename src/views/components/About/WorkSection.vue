@@ -32,6 +32,6 @@ import jobs from '../../../data/job.json'
 
 const title = ref('Work Experience');
 const subject = ref('1+ year of professional development experience.');
-const description = ref('I am eager to learn new technologies and contribute to the development of innovative applications.');
+const description = ref('Highly motivated and results-oriented individual with a strong passion for learning new technologies. I am eager to contribute to the development of innovative applications.');
 const jobData = ref(jobs.JobDetails);
 </script>

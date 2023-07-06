@@ -1,6 +1,6 @@
 <template>
 <header class="">
-    <div class="p-4 mx-auto max-w-[700px]">
+    <div class="p-2 mx-auto max-w-[700px]">
         <div class="flex items-center justify-between gap-4">
             <div class="flex lg:w-0 lg:flex-1">
                 <div class="animate-fade">
@@ -24,11 +24,12 @@
             <div class="flex-auto"></div> <!-- Add this line -->
             <label for="AcceptConditions" class=" relative h-6 w-10 cursor-pointer animate-fade">
                 <input @click="!toggleDark(); toggleTheme();" type="checkbox" id="AcceptConditions" class="peer sr-only [&:checked_+_span_svg[data-checked-icon]]:block [&:checked_+_span_svg[data-unchecked-icon]]:hidden" />
-                <span class="absolute inset-y-0 start-0 z-10 m-1 inline-flex h-4 w-4 items-center justify-center rounded-full bg-black dark:bg-white text-neutral-400 transition-all peer-checked:start-4 peer-checked:text-neutral-600">
+                <span class="absolute inset-y-0 start-0 z-10 m-1 inline-flex h-4 w-4 items-center justify-center rounded-full transition-all peer-checked:start-4 peer-checked:text-neutral-600">
                     <img :src="icon" class="w-5 h-5 text-neutral-100" :alt="iconAlt" />
                 </span>
-                <span class="absolute inset-0 rounded-full transition peer-checked:bg-transparent border dark:border-neutral-500"></span>
+                <span class="absolute inset-0 rounded-full transition peer-checked:bg-transparent border dark:border-neutral-700"></span>
             </label>
+
             <div class="block sm:hidden animate-fade">
                 <button class="p-2 text-slate-600 dark:text-slate-300" type="button" @click="toggleMentFunc();">
                     <span class="sr-only">Open menu</span>
@@ -104,7 +105,7 @@ const iconBlack = MoonLight;
 const iconWhite = SunLight;
 
 const isDarkmode = ref(true);
-const icon = computed(() => (isDarkmode.value ? iconWhite : iconBlack));
+const icon = computed(() => (!isDarkmode.value ? iconWhite : iconBlack));
 const logo = computed(() => (isDarkmode.value ? logoWhite : logoBlack));
 const iconAlt = computed(() => (isDarkmode.value ? "Moon Light" : "Sun Light"));
 

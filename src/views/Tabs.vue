@@ -14,15 +14,15 @@
     </div>
     <!-- Content -->
     <div class="mt-10">
-        <div v-show="activeTab === 0">
+        <div v-show="activeTab === 0" class="h-80 md:h-72 overflow-x-auto">
             <!-- Developement Content -->
             <TabDev :data="data"/> 
         </div>
-        <div v-show="activeTab === 1">
+        <div v-show="activeTab === 1" class="h-80 md:h-72 overflow-x-auto">
             <!-- UI/UX Design -->
             <TabDesign :design="design" />
         </div>
-        <div v-show="activeTab === 2">
+        <div v-show="activeTab === 2" class="h-80 md:h-72 overflow-x-auto">
             <!-- Open Source -->
             <TabOpenSource :openSouce="openSouce" />
         </div>

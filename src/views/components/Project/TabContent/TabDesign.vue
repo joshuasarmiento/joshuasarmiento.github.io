@@ -1,6 +1,6 @@
 <template>
 <div class="">
-    <ul class="flex flex-col animated-list">
+    <ul class="flex flex-col">
         <li v-for="itemDesign in design" :key="itemDesign.id" class="py-3 group">
             <div :class="itemDesign.animateDelay" class="animate-fade-up">
                 <div class="flex justify-between gap-6 items-center">

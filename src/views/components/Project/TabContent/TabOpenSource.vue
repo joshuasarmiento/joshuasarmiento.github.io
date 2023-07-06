@@ -1,16 +1,16 @@
 <template>
 <div class="">
-    <ul class="flex flex-col animated-list">
+    <ul class="flex flex-col">
         <li v-for="itemOS in openSouce" :key="itemOS.id" class="py-3 group">
             <div :class="itemOS.animateDelay" class="animate-fade-up">
-                <div class="flex justify-between gap-6">
+                <div class="flex justify-between gap-6 items-center">
                     <!-- :class="item.id === 1 ? '-z-10 text-secondary' : ''" -->
                     <section class="flex flex-col md:flex-row gap-2 md:gap-9 col-reverse">
                         <h2 class="md:w-40 text-secondary text-sm shrink-0">
                             <span>{{itemOS.date}}</span>
                         </h2>
 
-                        <a :href="itemOS.link" target="_blank" class="font-medium leading-tight hover:animate-pulse group relative inline-flex overflow-hidden pr-8 py-2 space-x-4">
+                        <a :href="itemOS.link" target="_blank" class="-ml-4 md:-ml-0 font-medium leading-tight hover:animate-pulse group relative inline-flex overflow-hidden pr-8 py-2 space-x-4">
                             <span class="absolute -end-full transition-all group-hover:end-1">
                                 <svg class="h-4 w-4 ml-auto text-secondary rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                     <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
