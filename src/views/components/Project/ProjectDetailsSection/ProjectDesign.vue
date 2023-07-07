@@ -15,7 +15,7 @@
             <div class="h-16"></div>
             <div class="animate-fd-4">
                 <h2 class="text-xl font-bold tracking-wide mb-4">Objective</h2>
-                <p class="text-seondary-content">{{ dataUIUX.objective }}</p>
+                <p class="text-secondary-content">{{ dataUIUX.objective }}</p>
             </div>
 
             <div class="h-10"></div>
