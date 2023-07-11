@@ -370,8 +370,20 @@
     "OpenSource": [
         {
             "id": 1,
-            "isOngoing": false,
+            "isOngoing": true,
             "animateDelay": "animate-delay-[100ms]",
+            "date": "July 2023",
+            "params": "frontend-dev-tools", 
+            "subject": "Frontend Development Tools",
+            "link": "https://github.com/joshuasarmiento/frontend-tools",
+            "icons": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+            ]
+        },
+        {
+            "id": 2,
+            "isOngoing": false,
+            "animateDelay": "animate-delay-[200ms]",
             "date": "July 2023",
             "params": "typescript-vue-starter", 
             "subject": "Typescript Vue Starter",
@@ -382,9 +394,9 @@
             ]
         },
         {
-            "id": 2,
+            "id": 3,
             "isOngoing": false,
-            "animateDelay": "animate-delay-[200ms]",
+            "animateDelay": "animate-delay-[300ms]",
             "date": "July 2023",
             "params": "svelte-poll-starter", 
             "subject": "Svelte Poll App Starter",
@@ -394,9 +406,9 @@
             ]
         },
         {
-            "id": 3,
+            "id": 4,
             "isOngoing": false,
-            "animateDelay": "animate-delay-[300ms]",
+            "animateDelay": "animate-delay-[400ms]",
             "date": "July 2023",
             "params": "react-blog-starter", 
             "subject": "React Blog Starter",
@@ -406,9 +418,9 @@
             ]
         },
         {
-            "id": 4,
+            "id": 5,
             "isOngoing": false,
-            "animateDelay": "animate-delay-[400ms]",
+            "animateDelay": "animate-delay-[500ms]",
             "date": "June 2023",
             "params": "online-portfolio", 
             "subject": "Online Portfolio",
@@ -418,9 +430,9 @@
             ]
         },
         {
-            "id": 5,
+            "id": 6,
             "isOngoing": false,
-            "animateDelay": "animate-delay-[500ms]",
+            "animateDelay": "animate-delay-[600ms]",
             "date": "June 2023",
             "params": "Open-AI-Starter", 
             "subject": "Open AI Starter",
@@ -430,9 +442,9 @@
             ]
         },
         {
-            "id": 6,
+            "id": 7,
             "isOngoing": false,
-            "animateDelay": "animate-delay-[600ms]",
+            "animateDelay": "animate-delay-[700ms]",
             "date": "October 2022",
             "params": "Slim-practice", 
             "subject": "Slim Practice",
@@ -442,9 +454,9 @@
             ]
         },
         {
-            "id": 7,
+            "id": 8,
             "isOngoing": false,
-            "animateDelay": "animate-delay-[700ms]",
+            "animateDelay": "animate-delay-[800ms]",
             "date": "July 2022",
             "params": "Recipe-API", 
             "subject": "Recipe API",
