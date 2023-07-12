@@ -1,13 +1,12 @@
 <template>
 <header class="">
     <div class="p-4 mx-auto max-w-[700px]">
-        <div class="flex items-center justify-between gap-4">
+        <div class="flex items-center justify-evenly gap-4">
             <div class="flex lg:w-0 lg:flex-1">
-                <div class="animate-fade">
-                    <router-link to="/">
-                        <img loading="lazy" decoding="async" :src="logo" class="bg-transparent h-4 w-4" alt="">
-                    </router-link>
-                </div>
+                <a href="https://joshuasarmiento.github.io/" class="animate-wiggle hover:animate-wiggle-more animate-delay-[200ms]">
+                    <span v-if="isDarkmode">🙈</span>
+                    <span v-else>🙉</span>
+                </a>
             </div>
             <nav aria-label="Global" class="hidden gap-4 lg:ml-16 text-sm sm:flex animate-fade">
                 <router-link class="transition-all btn-transition rounded-md text-primary-link px-3 py-2 text-[13px]" to="/about">About</router-link>
@@ -24,11 +23,11 @@
             <div class="flex-auto"></div> <!-- Add this line -->
             <label for="AcceptConditions" class=" relative h-6 w-10 cursor-pointer animate-fade">
                 <input @click="!toggleDark(); toggleTheme();" type="checkbox" id="AcceptConditions" class="peer sr-only [&:checked_+_span_svg[data-checked-icon]]:block [&:checked_+_span_svg[data-unchecked-icon]]:hidden" />
-                <span class="absolute inset-y-0 start-0 z-10 m-1 inline-flex h-4 w-4 items-center justify-center rounded-full transition-all peer-checked:start-4 peer-checked:text-neutral-600">
+                <div class="absolute inset-y-0 start-0 z-10 m-1 inline-flex h-4 w-4 items-center justify-center rounded-full transition-all peer-checked:start-4 peer-checked:text-neutral-600">
                     <!-- <img :src="icon" class="w-5 h-5 text-neutral-100" :alt="iconAlt" /> -->
-                    <span v-if="isDarkmode">☀️</span>
-                    <span v-else>🌑</span>
-                </span>
+                    <span v-if="isDarkmode" class="hover:animate-spin hover:animate-duration-[4000ms] hover:animate-delay-[500ms]">☀️</span>
+                    <span v-else class="hover:animate-spin hover:animate-duration-[4000ms] hover:animate-delay-[500ms]">🌑</span>
+                </div>
                 <span class="absolute inset-0 rounded-full transition peer-checked:bg-transparent border dark:border-neutral-700"></span>
             </label>
 
@@ -107,9 +106,9 @@ const iconBlack = MoonLight;
 const iconWhite = SunLight;
 // 🌙 🌑 🌚
 // ☀️ 🌞
-// ⭐
+// ⭐ 🙉 🙈
 const isDarkmode = ref(true);
-const icon = computed(() => (!isDarkmode.value ? iconWhite : iconBlack));
+const icon = computed(() => (isDarkmode.value ? iconWhite : iconBlack));
 const logo = computed(() => (isDarkmode.value ? logoWhite : logoBlack));
 const iconAlt = computed(() => (isDarkmode.value ? "Moon Light" : "Sun Light"));
 
