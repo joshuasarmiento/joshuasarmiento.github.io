@@ -1,12 +1,16 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@vueuse/core':
     specifier: ^10.2.1
     version: 10.2.1(vue@3.3.4)
   tailwindcss-animated:
     specifier: ^1.0.1
-    version: 1.0.1(tailwindcss@3.3.2)
+    version: 1.0.1(tailwindcss@3.3.3)
   vue:
     specifier: ^3.3.4
     version: 3.3.4
@@ -34,8 +38,8 @@ devDependencies:
     specifier: ^8.4.24
     version: 8.4.24
   tailwindcss:
-    specifier: ^3.3.2
-    version: 3.3.2
+    specifier: ^3.3.3
+    version: 3.3.3
   vite:
     specifier: ^3.2.7
     version: 3.2.7
@@ -1067,16 +1071,16 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /tailwindcss-animated@1.0.1(tailwindcss@3.3.2):
+  /tailwindcss-animated@1.0.1(tailwindcss@3.3.3):
     resolution: {integrity: sha512-u5wusj89ZwP8I+s8WZlaAd7aZTWBN/XEG6QgMKpkIKmAf3xP1A6WYf7oYIKmGaB10UAQaSqWopi/i1ozzZEs8Q==}
     peerDependencies:
       tailwindcss: '>=3.1.0'
     dependencies:
-      tailwindcss: 3.3.2
+      tailwindcss: 3.3.3
     dev: false
 
-  /tailwindcss@3.3.2:
-    resolution: {integrity: sha512-9jPkMiIBXvPc2KywkraqsUfbfj+dHDb+JPWtSJa9MLFdrPyazI7q6WX2sUrm7R9eVR7qqv3Pas7EvQFzxKnI6w==}
+  /tailwindcss@3.3.3:
+    resolution: {integrity: sha512-A0KgSkef7eE4Mf+nKJ83i75TMyq8HqY3qmFIJSWy8bNt0v1lG7jUcpGpoTFxAwYcWOphcTBLPPJg+bDfhDf52w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -1100,7 +1104,6 @@ packages:
       postcss-load-config: 4.0.1(postcss@8.4.24)
       postcss-nested: 6.0.1(postcss@8.4.24)
       postcss-selector-parser: 6.0.13
-      postcss-value-parser: 4.2.0
       resolve: 1.22.2
       sucrase: 3.32.0
     transitivePeerDependencies:
@@ -1264,7 +1267,3 @@ packages:
   /yaml@2.3.1:
     resolution: {integrity: sha512-2eHWfjaoXgTBC2jNM1LRef62VQa0umtvRiDSk6HSzW7RvS5YtkabJrwYLLEKWBc8a5U2PTSCs+dJjUTJdlHsWQ==}
     engines: {node: '>= 14'}
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
