@@ -5,7 +5,7 @@
             <img alt="avatar" loading="lazy" decoding="async" data-nimg="1" class="animate-fade-up rounded-full bg-secondary mx-auto animate-in" style="color: transparent; --index: 1;" :src="profilePic" :style="imgStyle" width="100" height="100">
             <div class="animate-fade-up animate-delay-[100ms] space-y-1 animate-in">
                 <h1 class="text-2xl font-bold tracking-tight text-center">Joshua Sarmiento</h1>
-                <p class="max-w-sm text-secondary text-sm mx-auto text-center">Frontend Developer</p>
+                <p class="max-w-sm text-secondary text-sm mx-auto text-center">Full-Stack Developer</p>
             </div>
         </div>
         <ul class="flex-grow grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-3">
