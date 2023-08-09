@@ -14,10 +14,10 @@ import { ref } from 'vue';
 import WorkSection from '../views/components/About/WorkSection.vue';
 import CardProfile from '../views/components/About/Card.vue';
 import ConnectLinks from '../views/components/About/Connect.vue';
-import ProgLanguages from '../views/components/About/ProgLanguages.vue'
+// import ProgLanguages from '../views/components/About/ProgLanguages.vue'
 
 const title = ref(`I\'m Joshua Sarmiento!`);
-const description = ref("My enthusiasm for web development and UI/UX design led me to work on projects where I acquired valuable experience in user research and coding.");
+const description = ref("My enthusiasm for web development led me to work on projects where I acquired valuable experience in user research and coding.");
 </script>
 
 <style>

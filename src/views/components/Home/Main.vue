@@ -37,7 +37,7 @@ import Charts from './Charts.vue'
 
 const name = ref('Joshua Sarmiento');
 const subject = ref('I design and write code.');
-const description = ref("I'm Joshua Sarmiento, a frontend developer currently working at Bria Homes Inc. with 1+ year of experience. I'm passionate about building user-friendly and engaging web applications.")
+const description = ref("I'm Joshua Sarmiento, a Full-Stack Developer currently working at Vista Lifescapes, Inc. with 1+ year of experience. ")
 
 const links = ref([
     {
