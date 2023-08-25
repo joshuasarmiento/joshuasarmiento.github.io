@@ -4,7 +4,7 @@
             "id": 1,
             "position": "Full-Stack Developer",
             "companyName": "Vista Land & Lifescapes, Inc.",
-            "companyLogo": "vista-land-and-lifescapes.png",
+            "companyLogo": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/vista-land-and-lifescapes.png",
             "startDate": "Aug 2023",
             "endDate": "Present",
             "link": "https://www.vistaland.com.ph/"
@@ -13,7 +13,7 @@
             "id": 2,
             "position": "Frontend Developer",
             "companyName": "Bria Homes Inc.",
-            "companyLogo": "BriaLogo.png",
+            "companyLogo": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/BriaLogo.png",
             "startDate": "Aug 2022",
             "endDate": "Aug 2023",
             "link": "https://www.bria.com.ph/"
@@ -22,7 +22,7 @@
             "id": 3,
             "position": "Software Developer - Intern",
             "companyName": "CHED Regional Office V.",
-            "companyLogo": "ched-logo.png",
+            "companyLogo": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/ched-logo.png",
             "startDate": "Jan 2022",
             "endDate": "Jun 2022",
             "link": "https://chedro5stufap.com/"
