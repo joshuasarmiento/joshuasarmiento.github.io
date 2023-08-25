@@ -109,8 +109,8 @@ const iconWhite = SunLight;
 // ☀️ 🌞
 // ⭐ 🙉 🙈
 const isDarkmode = ref(true);
-const icon = computed(() => (isDarkmode.value ? iconWhite : iconBlack));
-const logo = computed(() => (isDarkmode.value ? logoWhite : logoBlack));
+const icon = computed(() => (!isDarkmode.value ? iconWhite : iconBlack));
+// const logo = computed(() => (isDarkmode.value ? logoWhite : logoBlack));
 const iconAlt = computed(() => (isDarkmode.value ? "Moon Light" : "Sun Light"));
 
 const isDark = useDark();
