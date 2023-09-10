@@ -10,7 +10,7 @@
             <li class="">
                 <a v-for="item in jobData" :key="item" class="group relative overflow-hidden underline-offset-4 flex flex-col md:flex-row justify-between w-full px-3 py-4 -mx-3 -my-2" target="_blank" :href="item.link">
                     <div class="flex items-center gap-4">
-                        <img alt="Hines" v-lazy="{ src: item.companyLogo }" decoding="async" data-nimg="1" class="group-hover:animate-wiggle rounded-full opacity-75" style="color: transparent;" width="48" height="48">
+                        <img v-lazy="{ src: item.companyLogo }" decoding="async"  alt="{{ item.companyName }}" data-nimg="1" class="group-hover:animate-wiggle rounded-full opacity-75" style="color: transparent;" width="48" height="48">
                         <div class="flex flex-col gap-px ">
                             <p class="external-arrow">{{ item.position }}</p>
                             <p class="text-secondary">{{ item.companyName }}</p>
@@ -26,6 +26,7 @@
 
 <script setup>
 import {
+  onMounted,
     ref
 } from 'vue';
 import jobs from '../../../data/job.json'
