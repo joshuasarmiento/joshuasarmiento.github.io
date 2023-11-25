@@ -1,6 +1,6 @@
 <template>
 <section class="animate-fade-up">
-    <div href="#" class="primary-text relative block overflow-hidden rounded-lg border border-neutral-200 dark:border-neutral-900 p-4 sm:p-6 lg:p-8">
+    <div href="#" class="primary-text relative block overflow-hidden rounded-lg border backdrop-blur-sm border-neutral-300 dark:border-neutral-700 p-4 sm:p-6 lg:p-8">
         <span class="primary-gradient"></span>
         <div class="sm:flex sm:justify-between sm:gap-4">
             <div class="">

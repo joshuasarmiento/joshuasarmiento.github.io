@@ -7,7 +7,7 @@
             <p class="text-secondary animate-fd-1">{{  subject }}</p>
         </div>
         <div class="animate-fd-2 flex flex-col md:flex-row gap-6 text-secondary md:items-center">
-            <img alt="avatar" loading="lazy" decoding="async" data-nimg="1" class="rounded-full w-24 h-24" v-lazy="{ src: profilePic }">
+            <img alt="avatar" loading="lazy" decoding="async" data-nimg="1" class="rounded-full object-cover w-24 h-24" v-lazy="{ src: profilePic }">
             <ul class="space-y-2">
                 <li class="">
                     <a v-for="(link) in links" :key="link.id" class="text-secondary underline-offset-4 flex gap-3 items-center no-underline" target="_blank">
@@ -37,7 +37,7 @@ import Charts from './Charts.vue'
 
 const name = ref('Joshua Sarmiento');
 const subject = ref('I design and write code.');
-const description = ref("I'm Joshua Sarmiento, a Full-Stack Developer currently working at Vista Lifescapes, Inc. with 1+ year of experience. ")
+const description = ref("I'm Joshua Sarmiento, a Web Developer currently working at Vista Lifescapes, Inc. with 1+ year of experience. ")
 
 const links = ref([
     {

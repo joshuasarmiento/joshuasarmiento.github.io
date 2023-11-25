@@ -9,9 +9,9 @@
                 </router-link> 
             </div>
             <nav aria-label="Global" class="hidden gap-4 lg:ml-16 text-sm sm:flex animate-fade">
-                <router-link class="transition-all btn-transition rounded-md text-primary-link px-3 py-2 text-[13px]" to="/about">About</router-link>
-                <router-link class="transition-all btn-transition rounded-md text-primary-link px-3 py-2 text-[13px]" to="/projects">Projects</router-link>
-                <router-link class="transition-all btn-transition rounded-md text-primary-link px-3 py-2 text-[13px]" to="/contact">Contact</router-link>
+                <router-link class="nav-desktop transition-all btn-transition rounded-md text-primary-link px-3 py-2 text-[13px]" to="/about">About</router-link>
+                <router-link class="nav-desktop transition-all btn-transition rounded-md text-primary-link px-3 py-2 text-[13px]" to="/projects">Projects</router-link>
+                <router-link class="nav-desktop transition-all btn-transition rounded-md text-primary-link px-3 py-2 text-[13px]" to="/contact">Contact</router-link>
             </nav>
             <!-- Add this line -->
             <div class="flex-auto"></div>
@@ -33,21 +33,21 @@
                 <span class="absolute inset-0 rounded-full transition peer-checked:bg-transparent border dark:border-neutral-700"></span>
             </label> -->
             <div class="block sm:hidden animate-fade">
-                <button class="p-2 text-slate-600 dark:text-slate-300" type="button" @click="toggleMentFunc();">
+                <button class="p-2 text-slate-600 dark:text-slate-200" type="button" @click="toggleMentFunc();">
                     <span class="sr-only">Open menu</span>
                     <svg v-if="!toggleMenu" aria-hidden="true" class="h-5 w-5" fill="currentColor" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                     </svg>
-                    <svg v-else viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <svg v-else viewBox="0 0 24 24" class="h-5 w-5 animate-rotate-y"  fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                         <g id="SVGRepo_iconCarrier">
                             <g clip-path="url(#clip0_429_11083)">
-                                <path d="M7 7.00006L17 17.0001M7 17.0001L17 7.00006" stroke="#292929" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M7 7.00006L17 17.0001M7 17.0001L17 7.00006" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                             </g>
                             <defs>
                                 <clipPath id="clip0_429_11083">
-                                    <rect width="24" height="24" fill="white"></rect>
+                                    <rect width="24" height="24" fill="currentColor"></rect>
                                 </clipPath>
                             </defs>
                         </g>
@@ -55,18 +55,18 @@
                 </button>
             </div>
             <div v-if="toggleMenu === true" :class="toggleMenu ? 'animate-fade-left animate-duration-[400ms]' : 'animate-fade-right animate-duration-[400ms]' " class="lg:hidden relative z-20">
-                <div class="absolute end-0 z-10 mt-8 w-56 mr-4 divide-y divide-neutral-100 border rounded-md border-neutral-300 dark:border-neutral-100 bg-white dark:bg-neutral-950 shadow-lg transition-all" role="menu">
+                <div class="absolute end-0 z-[9999] mt-8 w-56 mr-4 divide-y backdrop-blur-sm divide-neutral-100 border rounded-md border-neutral-800 dark:border-neutral-100 bg-neutral-800/100 dark:bg-neutral-100/100 shadow-lg transition-all" role="menu">
                     <div class="p-2">
-                        <router-link to="/" class=" block rounded-md px-4 py-2 text-sm hover:bg-neutral-800 hover:dark:bg-neutral-200 text-primary-link" role="menuitem">
+                        <router-link to="/" class="nav-mobile block rounded-sm px-4 py-2 text-sm backdrop-blur-sm hover:bg-neutral-100/5 hover:dark:bg-neutral-800/5 text-primary-link" role="menuitem">
                             Home
                         </router-link>
-                        <router-link to="/about" class=" block rounded-md px-4 py-2 text-sm hover:bg-neutral-800 hover:dark:bg-neutral-200 text-primary-link" role="menuitem">
+                        <router-link to="/about" class="nav-mobile block rounded-sm px-4 py-2 text-sm backdrop-blur-sm hover:bg-neutral-100/5 hover:dark:bg-neutral-800/5 text-primary-link" role="menuitem">
                             About
                         </router-link>
-                        <router-link to="/projects" class=" block rounded-md px-4 py-2 text-sm hover:bg-neutral-800 hover:dark:bg-neutral-200 text-primary-link" role="menuitem">
+                        <router-link to="/projects" class="nav-mobile block rounded-sm px-4 py-2 text-sm backdrop-blur-sm hover:bg-neutral-100/5 hover:dark:bg-neutral-800/5 text-primary-link" role="menuitem">
                             Projects
                         </router-link>
-                        <router-link to="/contact" class=" block rounded-md px-4 py-2 text-sm hover:bg-neutral-800 hover:dark:bg-neutral-200 text-primary-link" role="menuitem">
+                        <router-link to="/contact" class="nav-mobile block rounded-sm px-4 py-2 text-sm backdrop-blur-sm hover:bg-neutral-100/5 hover:dark:bg-neutral-800/5 text-primary-link" role="menuitem">
                             Contact
                         </router-link>
                     </div>
@@ -134,13 +134,25 @@ router.beforeEach((to, from, next) => {
 </script>
 
 <style scoped>
-a.router-link-exact-active {
-    @apply bg-neutral-100;
+.nav-desktop.router-link-exact-active {
+    @apply bg-neutral-900/10;
     @apply border-neutral-200;
-    @apply text-neutral-800;
-    @apply dark:text-neutral-200;
-    @apply dark:bg-neutral-800;
+    @apply text-neutral-600;
+    @apply dark:text-neutral-300/80;
+    @apply dark:bg-neutral-100/10;
     @apply dark:hover:text-neutral-300;
     @apply rounded-md;
+    @apply backdrop-blur-lg;
+}
+
+.nav-mobile.router-link-exact-active {
+    @apply bg-neutral-100/10;
+    @apply border-neutral-200;
+    @apply text-neutral-200;
+    @apply dark:text-neutral-300;
+    @apply dark:bg-neutral-800/80;
+    @apply dark:hover:text-neutral-200;
+    @apply rounded-sm;
+    @apply backdrop-blur-sm;
 }
 </style>

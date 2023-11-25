@@ -2,15 +2,15 @@
 <main class="text-primary mt-4 md:mt-16 mx-auto max-w-[700px] scroll-smooth">
     <div class="text-primary flex flex-col gap-16 md:gap-24 p-4">
         <div class="flex flex-col gap-8 animate-in">
-            <img alt="avatar" loading="lazy" decoding="async" data-nimg="1" class="animate-fade-up rounded-full bg-secondary mx-auto animate-in" style="color: transparent; --index: 1;" :src="profilePic" :style="imgStyle" width="100" height="100">
+            <img alt="avatar" loading="lazy" decoding="async" data-nimg="1" class="animate-fade-up rounded-full object-cover bg-secondary mx-auto animate-in" style="color: transparent; --index: 1;" :src="profilePic" :style="imgStyle" width="100" height="100">
             <div class="animate-fade-up animate-delay-[100ms] space-y-1 animate-in">
                 <h1 class="text-2xl font-bold tracking-tight text-center">Joshua Sarmiento</h1>
-                <p class="max-w-sm text-secondary text-sm mx-auto text-center">Full-Stack Developer</p>
+                <p class="max-w-sm text-secondary text-sm mx-auto text-center">Web Developer</p>
             </div>
         </div>
         <ul class="flex-grow grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-3">
             <li v-for="data in connectLinks" :key="data.id" class="col-span-1">
-                <a :class="data.animateDelay" class="animate-fade-up text-sm relative underline-offset-4 overflow-hidden no-underline w-full border border-neutral-200 dark:border-neutral-900 rounded-lg p-4 border-primary inline-grid group" target="_blank" :href="data.link">
+                <a :class="data.animateDelay" class="animate-fade-up text-sm relative underline-offset-4 overflow-hidden no-underline w-full border backdrop-blur-sm border-neutral-300 dark:border-neutral-700 rounded-lg p-4 border-primary inline-grid group" target="_blank" :href="data.link">
                     <span class="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 group-hover:h-2 group-hover:animate-fade-up group-hover:animate-duration-[200ms]"></span>
                     <div class="flex justify-between gap-3">
                         <span class="flex">
@@ -20,7 +20,7 @@
                         <span v-html="linkSVG"></span>
                     </div>
                 </a>
-            </li>
+            </li>   
         </ul>
     </div>
     <GradientBg/>
@@ -28,7 +28,7 @@
 </template>
 
 <script setup>
-import profilePic from '../assets/img/profilePic.jpg';
+import profilePic from '../assets/img/profilePic2.jpg';
 import GradientBg from './reusable/Gradient-bg.vue'
 
 import {
@@ -106,7 +106,7 @@ const connectLinks = ref([{
                                 <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
                             </svg>`,
         animateDelay: 'animate-delay-[600ms]',
-        link: 'https://www.instagram.com/__premsjosh/',
+        link: 'https://www.instagram.com/__jossshh/',
     },
     {
         id: 5,
@@ -116,7 +116,7 @@ const connectLinks = ref([{
                 </svg>
                 `,
         animateDelay: 'animate-delay-[700ms]',
-        link: 'https://www.facebook.com/ajosshi22/',
+        link: 'https://www.facebook.com/joshsarmiento22/',
     },
 ])
 
