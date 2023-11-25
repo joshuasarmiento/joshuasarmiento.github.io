@@ -28,7 +28,7 @@
 </template>
 
 <script setup>
-import profilePic from '../assets/img/profilePic2.jpg';
+import profilePic from '../assets/img/profilePic2.jpg'
 import GradientBg from './reusable/Gradient-bg.vue'
 
 import {
