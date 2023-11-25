@@ -1,9 +1,9 @@
 <template>
 <section>
-    <div class="text-primary text-sm flex flex-col md:flex-row animate-fade">
+    <div class="text-primary text-sm flex flex-col sm:flex-row animate-fade">
         <div v-for="(tab, index) in tabs" :key="index" :class="{
-            'mr-2 md:rounded-sm border md:border-x w-1/2 md:w-full backdrop-blur-sm border-neutral-300 dark:border-neutral-700': activeTab === index,
-            'mr-2 border-neutral-200 dark:border-neutral-900 w-1/2 md:w-full': activeTab !== index,
+            'mr-2 md:rounded-sm border md:border-x w-full sm:w-full border-neutral-300 dark:border-neutral-700': activeTab === index,
+            'mr-2 border-neutral-300 dark:border-neutral-700 w-full sm:w-full': activeTab !== index,
             '': index === 0,
             '': index === tabs.length - 1
           }" class="transition-all py-2 px-4 cursor-pointer relative underline-offset-4 overflow-hidden group" @click="activeTab = index;"
