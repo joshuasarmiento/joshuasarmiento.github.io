@@ -370,7 +370,7 @@
     "OpenSource": [
         {
             "id": 1,
-            "isOngoing": true,
+            "isOngoing": false,
             "animateDelay": "animate-delay-[100ms]",
             "date": "July 2023",
             "params": "frontend-dev-tools", 

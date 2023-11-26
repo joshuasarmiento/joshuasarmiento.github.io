@@ -11,7 +11,7 @@
             </div>
 
             <div class="hidden sm:block sm:shrink-0 hover:animate-wiggle">
-                <img alt="Joshua Sarmiento" v-lazy="{ src: profilePic }" class="h-16 w-16 rounded-full object-cover shadow-sm" />
+                <img alt="Joshua Sarmiento" v-lazy="{ src: profilePic }" :style="imgStyle" class="h-16 w-16 rounded-full object-cover shadow-sm" />
             </div>
         </div>
         <div class=" mt-4">
@@ -26,7 +26,13 @@
 
 <script setup>
 
-import profilePic from '../../../assets/img/profilePic.jpg';
+import profilePic from '../../../assets/img/avatar1.jpg';
+import { useBorderRadius } from '../../reusable/useBorderRadius.js';
+
+const { imgStyle, startRotation } = useBorderRadius();
+// Call startRotation to begin the rotation
+startRotation();
+
 
 const props = defineProps({
     title: String,

@@ -4,7 +4,7 @@
         <div class="flex items-center justify-evenly gap-4">
             <div class="flex lg:w-0 lg:flex-1">
                 <router-link to="/" class="px-1 animate-wiggle hover:animate-wiggle-more animate-delay-[200ms]">
-                    <span v-if="isDarkmode">🙈</span>
+                    <span v-if="!isDarkmode">🙈</span>
                     <span v-else>🙉</span>
                 </router-link> 
             </div>
@@ -13,12 +13,13 @@
                 <router-link class="nav-desktop transition-all btn-transition rounded-md text-primary-link px-3 py-2 text-[13px]" to="/projects">Projects</router-link>
                 <router-link class="nav-desktop transition-all btn-transition rounded-md text-primary-link px-3 py-2 text-[13px]" to="/contact">Contact</router-link>
             </nav>
-            <!-- Add this line -->
+
+
             <div class="flex-auto"></div>
             <div class="flex flex-1 items-center justify-end gap-4 sm:flex">
                 <div class="animate-fade">
                     <a class="cursor-pointer" @click="toggleDark(); toggleTheme();">
-                        <img :src="icon" class="w-5 h-5 text-neutral-100" :alt="iconAlt" />
+                        <img :src="icon" class="w-5 h-5" :alt="iconAlt" />
                     </a>
                 </div>
             </div>
@@ -33,24 +34,13 @@
                 <span class="absolute inset-0 rounded-full transition peer-checked:bg-transparent border dark:border-neutral-700"></span>
             </label> -->
             <div class="block sm:hidden animate-fade">
-                <button class="p-2 text-slate-600 dark:text-slate-200" type="button" @click="toggleMentFunc();">
+                <button class="p-2 text-slate-800 dark:text-slate-200" type="button" @click="toggleMentFunc();">
                     <span class="sr-only">Open menu</span>
                     <svg v-if="!toggleMenu" aria-hidden="true" class="h-5 w-5" fill="currentColor" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                     </svg>
                     <svg v-else viewBox="0 0 24 24" class="h-5 w-5 animate-rotate-y"  fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                        <g id="SVGRepo_iconCarrier">
-                            <g clip-path="url(#clip0_429_11083)">
-                                <path d="M7 7.00006L17 17.0001M7 17.0001L17 7.00006" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_429_11083">
-                                    <rect width="24" height="24" fill="currentColor"></rect>
-                                </clipPath>
-                            </defs>
-                        </g>
+                        <path d="M7 7.00006L17 17.0001M7 17.0001L17 7.00006" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
                 </button>
             </div>
@@ -81,7 +71,9 @@
 import {
     ref,
     computed,
-    watchEffect
+    watchEffect,
+    watch,
+    onMounted
 } from "vue";
 import MoonLight from "../../assets/svg/moon-light.svg";
 import SunLight from "../../assets/svg/sun-light.svg";
@@ -109,16 +101,37 @@ const iconWhite = SunLight;
 // ☀️ 🌞
 // ⭐ 🙉 🙈
 const isDarkmode = ref(true);
-const icon = computed(() => (!isDarkmode.value ? iconWhite : iconBlack));
+
+const icon = computed(() => {
+    return (isDarkmode.value ? iconWhite : iconBlack);
+});
 // const logo = computed(() => (isDarkmode.value ? logoWhite : logoBlack));
-const iconAlt = computed(() => (isDarkmode.value ? "Moon Light" : "Sun Light"));
+
+const iconAlt = computed(() => {
+    return isDarkmode.value ? "Moon Light" : "Sun Light"
+});
+
+// Save the value of isDarkmode to local storage whenever it changes
+watch(isDarkmode, (newValue) => {
+    localStorage.setItem('isDarkmode', newValue);
+});
+
+// Load the value of isDarkmode from local storage when the component is created
+onMounted(() => {
+  const savedIsDarkmode = localStorage.getItem('isDarkmode');
+  if (savedIsDarkmode !== null) {
+     isDarkmode.value = savedIsDarkmode === 'true';
+  }
+});
 
 const isDark = useDark();
 console.log(isDark.value);
 
 const toggleDark = useToggle(isDark);
 const toggleTheme = () => {
+    console.log('Toggling theme...');
     isDarkmode.value = !isDarkmode.value;
+    console.log('isDarkmode:', isDarkmode.value);
 };
 
 const router = useRouter();

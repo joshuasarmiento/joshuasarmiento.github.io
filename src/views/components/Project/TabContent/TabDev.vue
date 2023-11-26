@@ -5,7 +5,7 @@
             <div :class="item.animateDelay" class="animate-fade-up">
                 <div class="flex justify-between gap-6 items-center">
                     <!-- :class="item.id === 1 ? '-z-10 text-secondary' : ''" -->
-                    <section class="flex flex-col md:flex-row gap-2 md:gap-9 col-reverse">
+                    <section class="flex flex-col items-start md:items-center md:flex-row gap-2 md:gap-9 col-reverse">
                         <h2 class="md:w-40 text-secondary text-sm shrink-0">
                             {{item.date}}
                         </h2>
