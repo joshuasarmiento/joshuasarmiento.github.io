@@ -125,13 +125,10 @@ onMounted(() => {
 });
 
 const isDark = useDark();
-console.log(isDark.value);
 
 const toggleDark = useToggle(isDark);
 const toggleTheme = () => {
-    console.log('Toggling theme...');
     isDarkmode.value = !isDarkmode.value;
-    console.log('isDarkmode:', isDarkmode.value);
 };
 
 const router = useRouter();

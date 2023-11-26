@@ -23,14 +23,10 @@ import projects from '../../../data/projects.json';
 const route = useRoute();
 const projectId = ref(route.params.id);
 
-console.log(projectId.value, 'projectId');
-
 const data = ref(null);
 const dataUIUX = ref(null);
 const project = projects.projectDetails.find((item) => item.subject.replace(/\s+/g, '-') === projectId.value);
 const projectUIUX = projects.UIUXdesign.find((item) => item.subject.replace(/\s+/g, '-') === projectId.value);
-
-console.log(project, 'project');
 
 project ? data.value = project : '';
 projectUIUX ? dataUIUX.value = projectUIUX : '';
