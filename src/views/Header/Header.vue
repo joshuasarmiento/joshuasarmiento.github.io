@@ -4,7 +4,7 @@
         <div class="flex items-center justify-evenly gap-4">
             <div class="flex lg:w-0 lg:flex-1">
                 <router-link to="/" class="px-1 animate-wiggle hover:animate-wiggle-more animate-delay-[200ms]">
-                    <span v-if="!isDarkmode">🙈</span>
+                    <span v-if="isDarkmode">🙈</span>
                     <span v-else>🙉</span>
                 </router-link> 
             </div>
@@ -103,7 +103,7 @@ const iconWhite = SunLight;
 const isDarkmode = ref(true);
 
 const icon = computed(() => {
-    return (isDarkmode.value ? iconWhite : iconBlack);
+    return (!isDarkmode.value ? iconWhite : iconBlack);
 });
 // const logo = computed(() => (isDarkmode.value ? logoWhite : logoBlack));
 
