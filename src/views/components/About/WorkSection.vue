@@ -32,8 +32,8 @@ import {
 import jobDataJson from '../../../data/job.json'
 
 const title = ref('Work Experience');
-const subject = ref('1+ year of professional development experience.');
-const description = ref('Highly motivated and results-oriented individual with a strong passion for learning new technologies.');
+const subject = ref('Over 1 year of professional development experience.');
+const description = ref('Highly motivated and results-oriented individual with a passion for learning new technologies.');
 
 const jobData = jobDataJson.JobDetails.map(job => ({
   ...job,
