@@ -26,7 +26,7 @@
 
 <script setup>
 
-import profilePic from '../../../assets/img/avatar1.jpg';
+import profilePic from '../../../assets/img/avatar1.webp';
 import { useBorderRadius } from '../../reusable/useBorderRadius.js';
 
 const { imgStyle, startRotation } = useBorderRadius();

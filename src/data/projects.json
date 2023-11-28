@@ -84,10 +84,10 @@
                 "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
             ],  
             "img": [
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/pmHomepage.png",
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/pmDashboard.png",
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/pmGcash.png",
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/pmBDO.png"
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/pmHomepage.webp",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/pmDashboard.webp",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/pmGcash.webp",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/pmBDO.webp"
             ],
             "titleDesc": "Web Application Payment Channel",
             "role": "Full Stack Developer",
@@ -113,7 +113,7 @@
             "contributors": [
                 {
                     "role": "",
-                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JomarBalasbas.jpg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JomarBalasbas.webp",
                     "link": "https://ph.linkedin.com/in/jomar-balasbas",
                     "name": "Jomar Balasbas",
                     "position": "Sr. Lead Full Stack Developer",
@@ -138,9 +138,9 @@
                 "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
             ],
             "img": [
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/asterraHomepage.png",
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/asterraAboutPage.png",
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/asterraNewsUpdate.png"
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/asterraHomepage.webp",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/asterraAboutPage.webp",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/asterraNewsUpdate.webp"
             ],
             "titleDesc": "Real Estate Website",
             "role": "UI/UX Designer and Frontend Developer",
@@ -166,7 +166,7 @@
             "contributors": [
                 {
                     "role": "",
-                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JomarBalasbas.jpg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JomarBalasbas.webp",
                     "link": "https://ph.linkedin.com/in/jomar-balasbas",
                     "name": "Jomar Balasbas",
                     "position": "Sr. Lead Full Stack Developer",
@@ -174,7 +174,7 @@
                 },
                 {
                     "role": "",
-                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JeanChua.jpg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JeanChua.webp",
                     "link": "https://ph.linkedin.com/in/jeannine-chua-4299bb188",
                     "name": "Jeannine Chua",
                     "position": "Senior Digital Marketing & Corporate Communication",
@@ -199,9 +199,9 @@
                 "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
             ],
             "img": [
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/briaHomepage.png",
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/briaAboutPage.png",
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/briaNewsUpdates.png"
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/briaHomepage.webp",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/briaAboutPage.webp",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/briaNewsUpdates.webp"
             ],
             "titleDesc": "Real Estate Website",
             "role": "UI/UX Designer and Frontend Developer",
@@ -228,7 +228,7 @@
             "contributors": [
                 {
                     "role": "",
-                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JomarBalasbas.jpg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JomarBalasbas.webp",
                     "link": "https://ph.linkedin.com/in/jomar-balasbas",
                     "name": "Jomar Balasbas",
                     "position": "Sr. Lead Full Stack Developer",
@@ -236,7 +236,7 @@
                 },
                 {
                     "role": "",
-                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JeanChua.jpg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JeanChua.webp",
                     "link": "https://ph.linkedin.com/in/jeannine-chua-4299bb188",
                     "name": "Jeannine Chua",
                     "position": "Senior Digital Marketing & Corporate Communication",
@@ -262,8 +262,8 @@
                 "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
             ],
             "img": [
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/CHEDDashboard.png",
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/CHEDReports.png"
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/CHEDDashboard.webp",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/CHEDReports.webp"
             ],
             "titleDesc": "Application of Programs Management System",
             "role": "Project Lead, UI/UX Designer, Frontend Developer",
@@ -292,7 +292,7 @@
             "contributors": [
                 {
                     "role": "",
-                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JeffPic.jpg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JeffPic.webp",
                     "link": "https://www.linkedin.com/in/jeff-vincent-banday-a01076239/",
                     "name": "Jeff C. Banday",
                     "position": "Junior Research & Development Engineer",
@@ -300,7 +300,7 @@
                 },
                 {
                     "role": "",
-                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/SaqPic.jpg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/SaqPic.webp",
                     "link": "https://www.linkedin.com/in/christiansaquillo/",
                     "name": "Christian A. Saquillo",
                     "position": "Technology Consultant ",
@@ -308,7 +308,7 @@
                 },
                 {
                     "role": "",
-                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/DuanePic.jpeg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/DuanePic.webp",
                     "link": "https://www.linkedin.com/in/duane-xavier-bondad/",
                     "name": "Duane Xavier Bondad",
                     "position": "Junior Full Stack Developer",
@@ -316,7 +316,7 @@
                 },
                 {
                     "role": "",
-                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/SevPic.jpeg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/SevPic.webp",
                     "link": "https://www.linkedin.com/in/sevsarate/",
                     "name": "Severino Sarate III",
                     "position": "Associate Software Engineer",
@@ -340,8 +340,8 @@
                 "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
             ],
             "img": [
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/blookApp.png",
-                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/blookBanner.png"
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/blookApp.webp",
+                "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/blookBanner.webp"
             ],
             "titleDesc": "Mobile Booking Application for Salons, Barber Shops, and Beauty Salons",
             "role": "UI/UX Designer and Frontend Developer",
@@ -369,7 +369,7 @@
             "contributors": [
                 {
                     "role": "",
-                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JeffPic.jpg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/JeffPic.webp",
                     "link": "https://www.linkedin.com/in/jeff-vincent-banday-a01076239/",
                     "name": "Jeff C. Banday",
                     "position": "Junior Research & Development Engineer",
@@ -377,7 +377,7 @@
                 },
                 {
                     "role": "",
-                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/SaqPic.jpg",
+                    "image": "https://raw.githubusercontent.com/joshuasarmiento/joshuasarmiento.github.io/main/src/assets/img/SaqPic.webp",
                     "link": "https://www.linkedin.com/in/christiansaquillo/",
                     "name": "Christian A. Saquillo",
                     "position": "Technology Consultant ",

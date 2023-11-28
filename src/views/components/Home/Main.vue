@@ -35,7 +35,7 @@
 
 <script setup>
 import { ref, computed, onMounted } from "vue";
-import profilePic from '../../../assets/img/avatar1.jpg';
+import profilePic from '../../../assets/img/avatar1.webp';
 import LinksSection from './Links.vue';
 import Charts from './Charts.vue'
 import { useBorderRadius } from '../../reusable/useBorderRadius.js';

@@ -28,7 +28,7 @@
 </template>
 
 <script setup>
-import profilePic from '../assets/img/avatar1.jpg'
+import profilePic from '../assets/img/avatar1.webp'
 import GradientBg from './reusable/Gradient-bg.vue'
 import { useBorderRadius } from './reusable/useBorderRadius.js'
 
